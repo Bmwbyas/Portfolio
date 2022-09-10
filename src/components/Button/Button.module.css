@@ -1,0 +1,17 @@
+.button {
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding:10px;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: chartreuse;
+}
+.button:active{
+    background-color: red;
+}
+button:disabled{
+    background-color: gainsboro;
+}

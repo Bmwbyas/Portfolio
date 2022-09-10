@@ -1,0 +1,29 @@
+.workContainer{
+    border:1px solid;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgAndButtonContainer{
+    width: 280px;
+    height: 280px;
+    background-color: lightcoral;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.descriptionContainer{
+    margin-left: 10px;
+}
+.descriptionContainer h3{
+    width: 50%;
+    border:1px solid;
+}
+.descriptionContainer p{
+    width: 80%;
+    border:1px solid;
+    min-height: 60px;
+}
