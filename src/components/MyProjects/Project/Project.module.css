@@ -1,0 +1,61 @@
+.workContainer {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #333333;
+    width: 280px;
+
+}
+
+.imgAndButtonContainer {
+    position: relative;
+    height: 280px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgAndButtonContainer::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+.imgAndButtonContainer button{
+    position: relative;
+}
+
+.descriptionContainer {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.titleProject {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    border: 1px solid;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.descriptionProject {
+    display: block;
+    margin: 11px 11px 23px;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #eee;
+
+    border: 1px solid;
+    min-height: 60px;
+}
