@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.scss'
 import style from '../../common/styles/Container.module.scss'
-import {Button} from "../Common/Button/Button";
+import {Button} from "../../common/components/Button/Button";
 import {Title} from "../../common/components/title/Title";
 const Contacts = () => {
     return (

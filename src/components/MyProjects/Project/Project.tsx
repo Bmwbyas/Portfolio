@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Project.module.css'
-import {Button} from "../../Common/Button/Button";
+import {Button} from "../../../common/components/Button/Button";
 type WorKPropsType={
     nameProject:string
     description:string

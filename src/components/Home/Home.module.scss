@@ -1,8 +1,13 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
 
 .mainBlock {
-  height: 100vh;
+
 
   .mainContainer {
+    @include container;
+    @include flex(row,center,space-between,wrap);
+    height: 100%;
     @media (max-width: 769px) {
       justify-content: center;
     }

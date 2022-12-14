@@ -4,10 +4,9 @@ import {Home} from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
 
 import Contacts from "./components/Contacts/Contacts";
-import Footer from "./components/Footer/Footer";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {routes} from "./Routes/routes";
-import { MyProject } from './components/MyProjects/MyProject';
+import {MyProject} from './components/MyProjects/MyProject';
 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
                 <Route path={routes.error404} element={<h1>PAGE NOT FOUND</h1>}/>
                 <Route path='*' element={<Navigate to='/404'/>}/>
             </Routes>
-            <Footer/>
         </div>
     )
 }
