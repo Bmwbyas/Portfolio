@@ -1,11 +1,12 @@
 @import "src/common/styles/sass/variables";
 @import "src/common/styles/sass/mixins";
+@import "src/common/components/Button/Button.module";
 
 .mainBlock {
-
+height: 100vh;
 
   .mainContainer {
-    @include container;
+    //@include container;
     @include flex(row,center,space-between,wrap);
     height: 100%;
     @media (max-width: 769px) {
@@ -13,19 +14,57 @@
     }
 
     .intro {
-      width: 300px;
-      background-color: brown;
-      span{
+      width: 50%;
+
+      h3 {
+        margin: 0;
+        color: $textColor;
         font-weight: 400;
-        font-size: 19px;
-        font-family: 'Open Sans', sans-serif;
+        @include text($fontMainPageText,19px);
+        text-transform: uppercase;
       }
+      h1 {
+        text-transform: uppercase;
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 500;
+        margin: 19px 0 10px;
+        color: #fff;
+        white-space: nowrap;
+        position: relative;
+        span{
+          color: $activeColor;
+          font-weight: 700;
+        }
+      }
+      .description{
+        color: $textColor;
+        margin: 11px 0 23px;
+        @include text($fontMainPageText,16px);
+        line-height: 32px;
+        font-weight: 400;
+
+      }
+      .navContainer{
+        .navItem{
+          @extend .button;
+          text-decoration: none;
+          color: $textColor;
+          &:first-child{
+           margin-right: 25px;
+          }
+        }
+
+      }
+
     }
 
     .photo {
-      width: 300px;
-      height: 300px;
-      background-color: red;
+      width: 50%;
+      height: 100%;
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
 }

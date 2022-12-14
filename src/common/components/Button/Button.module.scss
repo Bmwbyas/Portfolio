@@ -17,17 +17,15 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: .5px;
     border: 0;
-
+&:hover {
+     background-color: #6c757d;
+ }
+&:active {
+     background-color: red;
+ }
 }
-
-.button:hover {
-    background-color: #6c757d;
-}
-
-.button:active {
-    background-color: red;
-}
-
-button:disabled {
-    background-color: gainsboro;
+button {
+&:disabled {
+     background-color: gainsboro;
+ }
 }

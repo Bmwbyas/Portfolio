@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(nav)">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(home page structure)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,8 @@
       <workItem from="1666075745123" duration="104000" />
       <workItem from="1670916466584" duration="744000" />
       <workItem from="1670993540373" duration="5703000" />
-      <workItem from="1671003869739" duration="5659000" />
+      <workItem from="1671003869739" duration="6037000" />
+      <workItem from="1671033478764" duration="5807000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671020011818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix(home page structure)">
+      <created>1671021094789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671021094789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor(structure project)" />
     <MESSAGE value="fix(nav)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(nav)" />
+    <MESSAGE value="fix(home page structure)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(home page structure)" />
   </component>
 </project>

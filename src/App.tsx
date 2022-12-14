@@ -7,6 +7,7 @@ import Contacts from "./components/Contacts/Contacts";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {routes} from "./Routes/routes";
 import {MyProject} from './components/MyProjects/MyProject';
+import {AboutMe} from "./components/AboutMe/AboutMe";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path={routes.home} element={<Home/>}/>
+                <Route path={routes.aboutMe} element={<AboutMe/>}/>
                 <Route path={routes.skills} element={<Skills/>}/>
                 <Route path={routes.myProjects} element={ <MyProject/>}/>
                 <Route path={routes.contact} element={<Contacts/>}/>
