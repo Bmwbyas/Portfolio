@@ -1,0 +1,27 @@
+.contactBlock {
+  .contactContainer {
+    flex-direction: column;
+    justify-content: space-between;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .input {
+        width: 260px;
+        margin-top: 10px;
+      }
+
+      textarea {
+        width: 260px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+}
+
+
+
+

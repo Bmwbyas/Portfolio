@@ -1,0 +1,10 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+.header {
+  background-color: $bdColor;
+  .headerContainer {
+    @include container;
+    @include flex(row,space-around,center,wrap);
+
+  }
+}

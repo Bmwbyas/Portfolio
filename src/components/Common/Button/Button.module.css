@@ -1,0 +1,33 @@
+.button {
+    cursor: pointer;
+    background-color: rgb(218, 165, 32);
+    box-shadow: none;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 33px;
+    outline: none;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+
+}
+
+.button:hover {
+    background-color: #6c757d;
+}
+
+.button:active {
+    background-color: red;
+}
+
+button:disabled {
+    background-color: gainsboro;
+}

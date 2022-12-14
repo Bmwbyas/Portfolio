@@ -1,0 +1,21 @@
+@import "../../common/styles/sass/variables";
+.skillsBlock{
+
+    .skillsContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills{
+            width: 100%;
+            border:1px solid;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+//.title{
+//    display: block;
+//background-color: gainsboro;
+//    border: 1px solid chartreuse;
+//}

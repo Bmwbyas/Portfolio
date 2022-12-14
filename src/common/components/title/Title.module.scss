@@ -1,0 +1,16 @@
+@import "./src/common/styles/sass/mixins";
+@import "./src/common/styles/sass/variables";
+.title {
+    position: relative;
+    h2 {
+        @include text($fontH,55px);
+        //font-family: 'Poppins', sans-serif;
+        //font-size: 55px;
+        z-index: 0;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $titleColor;
+        box-sizing: border-box;
+    }
+}
+

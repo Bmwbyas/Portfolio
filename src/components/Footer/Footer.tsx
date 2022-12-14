@@ -1,17 +1,17 @@
 import React from 'react';
-import s from './Footer.module.css'
-import style from './../../common/styles/Container.module.css'
+import s from './Footer.module.scss'
+import style from '../../common/styles/Container.module.scss'
+import {Title} from "../../common/components/title/Title";
 
 const Footer = () => {
     return (
         <div className={s.footer}>
             <div className={style.container+' '+s.footerContainer}>
-                <h2>Askerko Alexandr</h2>
+                <Title title={'Askerko Alexandr'}/>
                 <div className={s.blocks}>
-                    <div className={s.block}>1</div>
-                    <div className={s.block}>2</div>
-                    <div className={s.block}>3</div>
-                    <div className={s.block}>4</div>
+                    <div className={s.block}>viber</div>
+                    <div className={s.block}>instagram</div>
+                    <div className={s.block}>linkedin</div>
                 </div>
             </div>
 

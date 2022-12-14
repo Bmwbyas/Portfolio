@@ -1,0 +1,9 @@
+@import "common/styles/sass/variables";
+*{
+    box-sizing: border-box;
+}
+.App {
+background-color: $bdColor;
+    margin: 0 auto;
+
+}
