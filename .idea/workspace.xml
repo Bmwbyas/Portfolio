@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(home page structure)">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(about me expirience and aducation)">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/photoAvatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutMe/Card/Card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,8 @@
       <workItem from="1671033478764" duration="5807000" />
       <workItem from="1671081219727" duration="12824000" />
       <workItem from="1671270360855" duration="5048000" />
-      <workItem from="1671285787432" duration="620000" />
+      <workItem from="1671285787432" duration="10061000" />
+      <workItem from="1671304089901" duration="5786000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671021094789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix(home page)">
+      <created>1671288811779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671288811779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,8 @@
     <MESSAGE value="refactor(structure project)" />
     <MESSAGE value="fix(nav)" />
     <MESSAGE value="fix(home page structure)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(home page structure)" />
+    <MESSAGE value="fix(home page)" />
+    <MESSAGE value="fix(about me expirience and aducation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(about me expirience and aducation)" />
   </component>
 </project>

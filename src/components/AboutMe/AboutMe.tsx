@@ -2,6 +2,13 @@ import React from 'react';
 import s from './AboutMe.module.scss'
 import myPhoto from "../../assets/image/myPhoto.jpg";
 import {Button} from "../../common/components/Button/Button";
+import {Card} from "./Card/Card";
+
+export type ExpEdDataType = {
+    years: string
+    place: string
+    description: string
+}
 
 export const AboutMe = () => {
     const myAvatar = {
@@ -9,6 +16,55 @@ export const AboutMe = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center'
     };
+    const educationData: ExpEdDataType[] = [
+        {
+            years: '06.2022-PRESENT',
+            place: 'frontend developer-IT-INCUBATOR',
+            description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+        },
+        {
+            years: '01.2022-06.2022',
+            place: 'frontend developer-self-study',
+            description: ` I learned the basics of HTML CSS JavaScript.`
+        },
+        {
+            years: '12.2021',
+            place: 'IT-ACADEMY - basics computer science',
+            description: `Here I got knowledge about how a computer works and how it works. Also got acquainted with the Python programming language. 
+            Gained skills in solving algorithmic problems, got acquainted with data types, etc.`
+        },
+        {
+            years: '2009-2014',
+            place: 'BSTU - woodworking mechanical engineer',
+            description: `I Studied the design of woodworking tools and equipment, microprocessor control systems for woodworking machines.
+            Gained skills in designing and repairing woodworking equipment.`
+        }
+    ]
+    const expirienseData: ExpEdDataType[] = [
+        {
+            years: '09.2022-12.2022',
+            place: 'IT-INCUBATOR - EDUCATIONAL CARDS',
+            description: `This a web-based tool that allows users to create study cards. User can learn from his or someone else's cards.`
+        },
+        {
+            years: '05.2022-09.2022',
+            place: 'IT-INCUBATOR - TO DO LIST',
+            description: ` It’s a list of tasks you need to complete or things that you want to do.
+                                You can use a to do list in your home and personal life, or in the workplace.`
+        },
+        {
+            years: '01.2022-05.2022',
+            place: 'IT-INCUBATOR - SOCIAL NETWORK',
+            description: `Social network that makes it easy for you to connect with friends online.`
+        },
+        {
+            years: '08.2014-PRESENT',
+            place: 'JSC "Borisovskiy DOK" - Deputy head of department for technical issues',
+            description: `My main task is to ensure the smooth operation of woodworking equipment. My team consists of 14 people.`
+        }
+
+    ]
     return (
         <div className={s.mainBlock}>
             <h1>About<span> me</span></h1>
@@ -40,14 +96,9 @@ export const AboutMe = () => {
 
             </div>
             <hr className={s.aboutHr}/>
-            <div className={s.mainContainer}>
-                <div >
-                    <h2 className={s.titleExpEd}>Experience</h2>
-
-                </div>
-                <div>
-                    
-                </div>
+            <div className={s.expEdContainer}>
+                <Card title={'expirience'} cardsData={expirienseData}/>
+                <Card title={'education'} cardsData={educationData}/>
             </div>
         </div>
     );

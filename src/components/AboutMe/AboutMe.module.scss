@@ -70,7 +70,7 @@
 
       position: relative;
       width: 440px;
-     height: 440px;
+      height: 440px;
       background-size: contain;
       z-index: 1;
       margin-right: 30px;
@@ -96,7 +96,7 @@
       grid-template-columns: 1fr 1fr;
       margin: 0 15px;
 
-      .personalInfo{
+      .personalInfo {
         width: 100%;
 
         text-align: left;
@@ -104,41 +104,118 @@
         padding: 0;
         margin-top: 60px;
         margin-bottom: 0;
-        @include text($fontH,16px);
+        @include text($fontH, 16px);
         font-weight: 400;
-        li{
-          color:$textColor;
+
+        li {
+          color: $textColor;
           box-sizing: border-box;
 
-            padding-bottom: 21px;
+          padding-bottom: 21px;
 
-          span{
+          span {
 
             margin-bottom: 7px;
             opacity: 0.8;
           }
         }
       }
-      .containerCV{
+
+      .containerCV {
         display: flex;
         justify-content: flex-start;
       }
     }
   }
-  .aboutHr{
+
+  .aboutHr {
 
     background: #555;
-    margin:72px 50px 30px 50px;
+    margin: 72px 50px 30px 50px;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
   }
-  .mainContainer{
-    .titleExpEd{
-      color: $titleColor;
-      text-transform: uppercase;
-      font-weight: 500;
-      margin-bottom: 50px;
-      @include text($fontH,23px);
+
+  .expEdContainer {
+    @include container();
+    @include flex(row, flex-start, center, wrap);
+
+    .expirienceContainer {
+
+      width: 50%;
+      text-align: left;
+
+      .titleExpEd {
+        text-align: left;
+        color: $titleColor;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 50px;
+        @include text($fontH, 23px);
+      }
+
+      .itemExpEd {
+        position: relative;
+
+        &:before {
+          content: '';
+          height: 100%;
+          left: 7px;
+          opacity: .6;
+          position: absolute;
+          top: 0;
+          width: 1px;
+          border-left: 1px solid #ffb400;
+        }
+
+        .bullet {
+          position: absolute;
+          border: 2px solid #ffb400;
+          left: 0;
+          top: -13px;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+
+        }
+      }
+
+      .card {
+
+        .cardHeader {
+          .years {
+            @include text($fontMainPageText, 13px);
+            opacity: .8;
+            font-weight: 400;
+            margin-bottom: 15px;
+          }
+
+          .place {
+            @include text($fontH, 16px);
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+          }
+        }
+        .cardContent{
+          color: $textColor;
+          @include text($fontMainPageText, 14px);
+          font-weight: 400;
+
+          margin: 0;
+          line-height: 28px;
+          padding-bottom: 28px;
+        }
+        color: $textColor;
+        margin-left: 39px;
+        margin-bottom: 12px;
+        margin-right: 20px;
+        @include text($fontH, 16px);
+        font-weight: 400;
+        min-width: 0;
+        word-wrap: break-word;
+        line-height: 1.5;
+      }
     }
   }
 }
