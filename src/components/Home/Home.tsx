@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Home.module.scss'
-import myPhoto from "../../assets/image/myPhoto.jpg";
+import myPhoto from "../../assets/image/photoAvatar.png";
 import {NavLink} from "react-router-dom";
 import {routes} from "../../Routes/routes";
 
@@ -10,9 +10,9 @@ export const Home = () => {
 
     };
     return (
-        <div   className={s.mainBlock}>
+        <div style={myAvatar}   className={s.mainBlock}>
             <div   className={s.mainContainer}>
-                <div className={s.photo} style={myAvatar} ></div>
+                <div className={s.photo}  ></div>
 
                 <div className={s.intro}>
                     <div>

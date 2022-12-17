@@ -4,14 +4,10 @@
     <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(home page structure)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +73,9 @@
       <workItem from="1670993540373" duration="5703000" />
       <workItem from="1671003869739" duration="6037000" />
       <workItem from="1671033478764" duration="5807000" />
+      <workItem from="1671081219727" duration="12824000" />
+      <workItem from="1671270360855" duration="5048000" />
+      <workItem from="1671285787432" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
