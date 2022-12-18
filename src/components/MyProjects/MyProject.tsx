@@ -7,6 +7,11 @@ import socialImage from './../../assets/image/social_media.jpg'
 import todolistImage from './../../assets/image/todolist.jpg'
 
 export const MyProject = () => {
+    const educationCards={
+        backgroundImage: 'url(' + socialImage + ')',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+    }
     const social = {
         backgroundImage: 'url(' + socialImage + ')',
         backgroundSize: 'cover',
@@ -23,9 +28,11 @@ export const MyProject = () => {
                 <Title title={'My Project'}/>
                 <div className={s.work}>
                     <Project imageIcon={social} nameProject={'Social network'}
-                             description={'a dedicated website or other application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
+                             description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
                     <Project imageIcon={toDoList} nameProject={'to-do list'}
                              description={`Add your tasks.Organize your life.Achieve more every day.`}/>
+                    <Project imageIcon={educationCards} nameProject={'Educational cards'}
+                             description={`An application that allows you to learn from flashcards that are created by the user himself or by another user`}/>
                 </div>
             </div>
         </div>
