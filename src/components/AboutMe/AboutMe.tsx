@@ -4,6 +4,9 @@ import myPhoto from "../../assets/image/myPhoto.jpg";
 import {Button} from "../../common/components/Button/Button";
 import {Card} from "./Card/Card";
 
+import {skillData} from "./Skill/skillData";
+import {Skill} from "./Skill/Skill";
+
 export type ExpEdDataType = {
     years: string
     place: string
@@ -70,8 +73,8 @@ export const AboutMe = () => {
             <h1>About<span> me</span></h1>
             <h2><span>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</span></h2>
             <div className={s.mainContainer}>
-                <div className={s.photo} style={myAvatar}>
-                </div>
+
+                <div className={s.photoContainer} ><div className={s.photo} style={myAvatar}></div></div>
                 <div className={s.intro}>
                     <div>
                         <ul className={s.personalInfo}>
@@ -99,6 +102,12 @@ export const AboutMe = () => {
             <div className={s.expEdContainer}>
                 <Card title={'expirience'} cardsData={expirienseData}/>
                 <Card title={'education'} cardsData={educationData}/>
+            </div>
+            <div className={s.skillsSection}>
+                <h2>Skills</h2>
+                <div className={s.skillsContainer}>
+                {skillData.map(s=><Skill key={s.name} name={s.name} icon={s.icon} />)}
+                </div>
             </div>
         </div>
     );

@@ -66,14 +66,21 @@
     //  justify-content: center;
     //}
 
-    .photo {
+    .photoContainer {
 
       position: relative;
       width: 440px;
       height: 440px;
       background-size: contain;
-      z-index: 1;
+      z-index: 0;
       margin-right: 30px;
+
+      .photo {
+        width: 440px;
+        height: 440px;
+        z-index: 3;
+        background-size: contain;
+      }
 
       &:before {
         display: inline-block;
@@ -83,7 +90,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        z-index: 0;
+        z-index: -1;
         transform: translate3d(26px, 26px, -26px);
         border: 6px solid $activeColor;
       }
@@ -197,7 +204,8 @@
             margin-bottom: 15px;
           }
         }
-        .cardContent{
+
+        .cardContent {
           color: $textColor;
           @include text($fontMainPageText, 14px);
           font-weight: 400;
@@ -205,7 +213,12 @@
           margin: 0;
           line-height: 28px;
           padding-bottom: 28px;
+
+          &:last-child {
+            padding-bottom: 0;
+          }
         }
+
         color: $textColor;
         margin-left: 39px;
         margin-bottom: 12px;
@@ -217,6 +230,25 @@
         line-height: 1.5;
       }
     }
+  }
+
+  .skillsSection {
+    @include container();
+
+
+    h2 {
+      color: $textColor;
+
+      padding-top: 50px;
+      @include text($fontH, 23px);
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+    .skillsContainer{
+      @include flex(row, center, center, wrap);
+    }
+
   }
 }
 
