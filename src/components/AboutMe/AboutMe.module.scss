@@ -40,9 +40,15 @@
         top: 11px;
         width: 30px;
         background-color: $activeColor;
+        @media (max-width: 605px) {
+          display: none;
+        }
       }
 
       &:after {
+        @media (max-width: 605px) {
+          display: none;
+        }
         position: absolute;
         content: "";
         height: 2px;
@@ -50,6 +56,7 @@
         top: 11px;
         width: 30px;
         background-color: $activeColor;
+
       }
     }
   }
@@ -57,14 +64,8 @@
 
   .mainContainer {
 
-    //@include container;
+
     @include flex(row, center, center, wrap);
-    //display: grid;
-    //grid-template-columns: 1fr 1fr;
-    //gap: 10px;
-    //@media (max-width: 1224px) {
-    //  justify-content: center;
-    //}
 
     .photoContainer {
 
@@ -101,6 +102,7 @@
       display: grid;
 
       grid-template-columns: 1fr 1fr;
+
       margin: 0 15px;
 
       .personalInfo {
@@ -150,7 +152,13 @@
     .expirienceContainer {
 
       width: 50%;
+      @media (max-width: 605px) {
+        width: 100%;
+
+
+      }
       text-align: left;
+
 
       .titleExpEd {
         text-align: left;
