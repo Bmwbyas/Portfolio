@@ -1,22 +1,21 @@
-@import "../../common/styles/sass/variables.scss";
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
 
 .myWorksBlock {
   .myWorkContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    @include container;
+    @include flex(column,center,flex-start,wrap);
+
 
     .work {
       width: 100%;
-      border: 1px solid;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      @media (max-width: 735px) {
+      @media (max-width: 1050px) {
         justify-content: center;
       }
     }
-
-
   }
 }
 

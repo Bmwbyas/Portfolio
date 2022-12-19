@@ -1,0 +1,43 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.textContainer {
+margin-top: 0;
+  span {
+    color: $titleColor;
+    opacity: 0.8;
+    @include text($fontMainPageText, 15px);
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    font-weight: 400;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 2px;
+      left: -50px;
+      top: 11px;
+      width: 30px;
+      background-color: $activeColor;
+      @media (max-width: 605px) {
+        display: none;
+      }
+    }
+
+    &:after {
+      @media (max-width: 605px) {
+        display: none;
+      }
+      position: absolute;
+      content: "";
+      height: 2px;
+      right: -50px;
+      top: 11px;
+      width: 30px;
+      background-color: $activeColor;
+
+    }
+  }
+}

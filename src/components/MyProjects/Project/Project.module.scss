@@ -1,9 +1,11 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
 .workContainer {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: $secondBgColor;
+  padding:5px;
   width: 280px;
 
   .imgAndButtonContainer {
@@ -38,24 +40,19 @@
     .titleProject {
       display: block;
       margin: 0 0 5px;
-      font-size: 16px;
-      font-family: 'Poppins', sans-serif;
+      @include text($fontH,16px);
       letter-spacing: 1px;
-      border: 1px solid;
-      color: #eee;
+      color: $titleColor;
       text-transform: uppercase;
     }
 
     .descriptionProject {
       display: block;
       margin: 11px 0 23px;
-      font-size: 14px;
+      @include text($fontMainPageText,14px);
       line-height: 32px;
       font-weight: 400;
-      font-family: 'Open Sans', sans-serif;
-      color: #eee;
-
-      border: 1px solid;
+      color: $textColor;
       min-height: 60px;
     }
   }

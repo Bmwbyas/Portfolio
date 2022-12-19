@@ -6,6 +6,8 @@ import {Card} from "./Card/Card";
 
 import {skillData} from "./Skill/skillData";
 import {Skill} from "./Skill/Skill";
+import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
+import {Title} from "../../common/components/title/Title";
 
 export type ExpEdDataType = {
     years: string
@@ -70,8 +72,9 @@ export const AboutMe = () => {
     ]
     return (
         <div className={s.mainBlock}>
-            <h1>About<span> me</span></h1>
-            <h2><span>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</span></h2>
+            {/*<h1>About<span> me</span></h1>*/}
+            <Title title={'About'} span={'me'}/>
+            <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'} />
             <div className={s.mainContainer}>
 
                 <div className={s.photoContainer} ><div className={s.photo} style={myAvatar}></div></div>

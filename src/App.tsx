@@ -3,7 +3,7 @@ import {Header} from "./components/Header/Header";
 import {Home} from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
 
-import Contacts from "./components/Contacts/Contacts";
+import {Contacts} from "./components/Contacts/Contacts";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {routes} from "./Routes/routes";
 import {MyProject} from './components/MyProjects/MyProject';

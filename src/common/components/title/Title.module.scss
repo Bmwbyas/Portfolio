@@ -1,16 +1,18 @@
 @import "./src/common/styles/sass/mixins";
 @import "./src/common/styles/sass/variables";
 .title {
-    position: relative;
     h2 {
-        @include text($fontH,55px);
-        //font-family: 'Poppins', sans-serif;
-        //font-size: 55px;
+        @include text($fontH, 55px);
+        position: relative;
         z-index: 0;
         font-weight: 900;
         text-transform: uppercase;
+        margin-bottom: 0;
         color: $titleColor;
-        box-sizing: border-box;
+
+        span {
+            color: $activeColor;
+        }
     }
 }
 

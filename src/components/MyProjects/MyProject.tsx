@@ -1,5 +1,4 @@
 import React from 'react';
-import style from '../../common/styles/Container.module.scss'
 import s from './MyProject.module.scss'
 import {Project} from "./Project/Project";
 import {Title} from "../../common/components/title/Title";
@@ -24,7 +23,7 @@ export const MyProject = () => {
     };
     return (
         <div className={s.myWorksBlock}>
-            <div className={style.container + ' ' + s.myWorkContainer}>
+            <div className={s.myWorkContainer}>
                 <Title title={'My Project'}/>
                 <div className={s.work}>
                     <Project imageIcon={social} nameProject={'Social network'}
