@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="feat(contacts )">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-messageFilled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/socialIcon/icons8-whatsapp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/myContacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/myContacts.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,7 @@
       <workItem from="1671442032756" duration="6358000" />
       <workItem from="1671451075241" duration="991000" />
       <workItem from="1671452537820" duration="340000" />
-      <workItem from="1671467906876" duration="6119000" />
+      <workItem from="1671467906876" duration="7169000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -148,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671362956122</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(contacts )">
+      <created>1671474206393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671474206393</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

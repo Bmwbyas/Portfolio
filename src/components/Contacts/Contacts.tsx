@@ -47,6 +47,7 @@ export const Contacts = () => {
                             method="post"
                             className={s.form}
                         >
+                            <span className={s.name}></span>
                             <input className={s.name} name="Name" id="name" placeholder="Your name" required/>
                             <input name="Email" id="email" type="email" placeholder="Your email" required/>
                             <textarea name="Message" id="message" placeholder="Your message here" required></textarea>
