@@ -3,6 +3,9 @@
 
 .contactBlock {
   height: 100vh;
+  @media (max-width: 830px) {
+    height: auto;
+  }
 
   .contactContainer {
     margin: 0;
@@ -12,55 +15,105 @@
 
     .container {
       display: grid;
-      grid-template-columns: 1fr 3fr;
+      grid-template-columns: 1fr 2.5fr;
+      gap: 15px;
+      @media (max-width: 800px) {
+        grid-template-columns: 1fr
+      }
 
       .myContact {
-        width: 30%;
+        color:$titleColor;
         list-style: none;
         text-decoration: none;
         margin: 0;
         padding: 0;
+
+
+
         li{
-          div{
+          padding-bottom: 25px;
+          .text{
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            @include text($fontMainPageText,15px);
+            font-weight: 400;
+            opacity: .8;
+          }
+          .imgValueCotainer{
+
+            position: relative;
+            text-transform: lowercase;
+            @include text($fontMainPageText,16px);
+            font-weight: 500;
+            padding-left: 35px;
             .icon{
-              
+              position: absolute;
+              left:0;
+              width: 20px;
+              height: 20px;
             }
           }
         }
       }
 
       .formContainer {
+        p{
+        color:$textColor;
+        margin: 0 0 24px ;
+        @include text($fontMainPageText,16px);
+        line-height: 32px;}
         .form {
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
           width: 100%;
-          max-width: 750px;
-          gap: 30px;
-
-          input {
-            line-height: 30px;
-            border: 1px solid #111;
-            padding: 11px 26px;
-            width: 48%;
+          .name{
+            position: relative;
+          }
+          .name:before{
+            content: '';
+            position: absolute;
+            background-color: red;
+            width: 20px;
+            height: 20px;
+            left: 0;
+            top:0;
+            background-size: contain;
+            background-position: center;
+            background-image: url('../../assets/image/socialIcon/icons8-user.png');
           }
 
+
+          input {
+
+            line-height: 30px;
+            border: 1px solid #444444;
+            padding: 11px 26px;
+            width: 48%;
+            @media (max-width: 1050px) {
+              width: 100%;
+            }
+          }
+          row-gap: 30px;
+
           textarea {
-            border: 1px solid #111;
+            border: 1px solid #444444;
             width: 100%;
             padding: 12px 26px;
-            height: 200px;
+            height: 150px;
           }
 
           input, textarea {
             border-radius: 30px;
             outline: none;
             transition: .3s;
-            background: $textColor;
+            color:$textColor;
+            font-size: 14px;
+            background: $secondBgColor;
             overflow: hidden;
 
             &:hover, &:focus {
-              border: 1px solid $titleColor;
+              border: 1px solid $activeColor;
             }
 
             &::placeholder {
