@@ -2,19 +2,10 @@
 @import "src/common/styles/sass/mixins";
 
 .mainBlock {
-
-  //@include container;
   text-align: center;
   margin: 0 auto;
 
-
-
-
-
-
   .mainContainer {
-
-
     @include flex(row, center, center, wrap);
 
     .photoContainer {
@@ -203,7 +194,8 @@
       text-transform: uppercase;
       margin-bottom: 50px;
     }
-    .skillsContainer{
+
+    .skillsContainer {
       @include flex(row, center, center, wrap);
     }
 

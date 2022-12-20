@@ -1,7 +1,9 @@
 @import "src/common/styles/sass/variables";
 .nav {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: flex-end;
   .navItem {
     display: block;
     text-decoration: none;

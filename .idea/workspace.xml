@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="feat(contacts )">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(contacts )">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +28,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/программирование/samurai-way-main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\программирование\\Portfolio\\portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/программирование/счетчик",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\программирование\\Portfolio\\portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\программирование\Portfolio\portfolio\src\common\components" />
@@ -89,7 +95,8 @@
       <workItem from="1671442032756" duration="6358000" />
       <workItem from="1671451075241" duration="991000" />
       <workItem from="1671452537820" duration="340000" />
-      <workItem from="1671467906876" duration="7169000" />
+      <workItem from="1671467906876" duration="7734000" />
+      <workItem from="1671548484198" duration="12302000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -147,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671474206393</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix(contacts )">
+      <created>1671475798923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671475798923</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +187,7 @@
     <MESSAGE value="feat(skills )" />
     <MESSAGE value="fix(about me )" />
     <MESSAGE value="feat(contacts )" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(contacts )" />
+    <MESSAGE value="fix(contacts )" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(contacts )" />
   </component>
 </project>

@@ -3,8 +3,7 @@
 .header {
   background-color: $bdColor;
   .headerContainer {
-    @include container;
-    @include flex(row,space-around,center,wrap);
-
+    position: absolute;
+   display: inline-block;
   }
 }
