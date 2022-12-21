@@ -3,7 +3,7 @@ import s from './HamburgerMenu.module.scss'
 import {Nav} from "../Nav/Nav";
 
 export const HamburgerMenu = () => {
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(false)
     const root:LegacyRef<HTMLDivElement> | undefined|null  = React.useRef(null);
 
     React.useEffect(() => {

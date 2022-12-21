@@ -2,6 +2,8 @@
 @import "./src/common/styles/sass/variables";
 .title {
     h2 {
+        margin-top: 0;
+        padding-top:40px ;
         @include text($fontH, 55px);
         position: relative;
         z-index: 0;

@@ -2,16 +2,23 @@
 @import "src/common/styles/sass/mixins";
 
 .myWorksBlock {
+  height: 100vh;
+  @media (max-width: 1090px) {
+    height: max-content;
+  }
   .myWorkContainer {
-    @include container;
+    //@include container;
     @include flex(column,center,flex-start,wrap);
+    margin: 0 20px;
 
 
     .work {
+      margin-top: 40px;
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
+      row-gap: 40px;
       @media (max-width: 1050px) {
         justify-content: center;
       }

@@ -3,8 +3,9 @@
 .header {
   background-color: $bdColor;
   .headerContainer {
-    position: absolute;
+    position: fixed;
    display: inline-block;
+    z-index: 10;
 
   }
 }

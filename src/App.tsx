@@ -1,8 +1,6 @@
-import './App.scss';
+import './App.module.scss';
 import {Header} from "./components/Header/Header";
 import {Home} from "./components/Home/Home";
-
-
 import {Contacts} from "./components/Contacts/Contacts";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {routes} from "./Routes/routes";
@@ -10,12 +8,12 @@ import {MyProject} from './components/MyProjects/MyProject';
 import {AboutMe} from "./components/AboutMe/AboutMe";
 
 import React from "react";
-
+import s from './App.module.scss'
 
 function App() {
 
     return (
-        <div className='App'>
+        <div className={s.App}>
             <Header/>
             <Routes>
                 <Route path='/' element={<Home/>}/>

@@ -24,7 +24,7 @@ export const MyProject = () => {
     return (
         <div className={s.myWorksBlock}>
             <div className={s.myWorkContainer}>
-                <Title title={'My Project'}/>
+                <Title title={'My '} span={'Project'}/>
                 <div className={s.work}>
                     <Project imageIcon={social} nameProject={'Social network'}
                              description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
