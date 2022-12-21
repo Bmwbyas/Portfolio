@@ -4,8 +4,8 @@
 
 
   .burger {
-    @include container();
-    margin-top: 20%;
+    margin-left: 15px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,8 +16,9 @@
     cursor: pointer;
     position: relative;
     color: $titleColor;
-    background-color: $secondBgColor ;
+
     .burgerLine {
+      z-index: 1;
       display: block;
       width: 30%;
       height: 2px;
@@ -54,6 +55,19 @@
     .burgerLineFourthActive{
       opacity: 0;
     }
+    .background{
+      z-index: 0;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      background: $secondBgColor;
+    }
+    .backgroundActive{
+      transition: .4s all linear;
+      height: 270px;
+    }
+
   }
 
 

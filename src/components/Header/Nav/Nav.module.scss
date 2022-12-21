@@ -1,9 +1,17 @@
 @import "src/common/styles/sass/variables";
+.noViewNav{
+  display: none;
+
+}
 .nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-left: 35px;
+  transition-duration: .25s;
+  transition-delay: .25s;
+
   .navItem {
     display: block;
     text-decoration: none;
@@ -11,18 +19,35 @@
     position: relative;
     height: 50px;
     line-height: 50px;
-    padding: 0 1em ;
+    z-index: 2;
     text-transform: uppercase;
     font-size: 16px;
     transition: color 0.2s;
     &:hover{
       color: $activeColor;
+      background-color: $secondBgColor;
+      border-end-end-radius: 30px;
+      border-top-right-radius: 30px;
 
     }
     &:focus{
       color: $activeColor;
     }
+    .navIcon{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+    }
+    .navItemTitle{
+      padding-left: 40px;
+      padding-right: 10px;
+    }
   }
-
+  .navItemActive{
+    //color: $activeColor;
+    //background-color: $secondBgColor;
+    //border-end-end-radius: 10px;
+    //border-top-right-radius: 10px;
+  }
 }
 
