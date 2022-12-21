@@ -9,7 +9,7 @@
     @include flex(row, center, center, wrap);
 
     .photoContainer {
-
+      padding: 0 10px;
       position: relative;
       width: 440px;
       height: 440px;
@@ -26,6 +26,9 @@
 
       &:before {
         display: inline-block;
+        @media (max-width: 600px) {
+          display: none;
+        }
         position: absolute;
         content: '';
         top: 0;
@@ -43,8 +46,11 @@
       display: grid;
 
       grid-template-columns: 1fr 1fr;
+      @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+      }
+      margin-top: 60px;
 
-      margin: 0 15px;
 
       .personalInfo {
         width: 100%;
@@ -52,10 +58,11 @@
         text-align: left;
         list-style: none;
         padding: 0;
-        margin-top: 60px;
         margin-bottom: 0;
+
         @include text($fontH, 16px);
         font-weight: 400;
+
 
         li {
           color: $textColor;
@@ -95,11 +102,8 @@
       width: 50%;
       @media (max-width: 605px) {
         width: 100%;
-
-
       }
       text-align: left;
-
 
       .titleExpEd {
         text-align: left;

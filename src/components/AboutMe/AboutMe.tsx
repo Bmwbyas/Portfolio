@@ -72,34 +72,31 @@ export const AboutMe = () => {
     ]
     return (
         <div className={s.mainBlock}>
-            {/*<h1>About<span> me</span></h1>*/}
+
             <Title title={'About'} span={'me'}/>
-            <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'} />
+            <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'}/>
             <div className={s.mainContainer}>
 
-                <div className={s.photoContainer} ><div className={s.photo} style={myAvatar}></div></div>
+                <div className={s.photoContainer}>
+                    <div className={s.photo} style={myAvatar}></div>
+                </div>
                 <div className={s.intro}>
-                    <div>
-                        <ul className={s.personalInfo}>
-                            <li><span>First Name </span> Alexandr</li>
-                            <li><span>Last Name </span> Askerko</li>
-                            <li><span>Birthdate </span>26 october 1991</li>
-                            <li><span>Nationality </span>Belarus</li>
-                            <li><span>Experience </span>1 years</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul className={s.personalInfo}>
-                            <li><span> Langages </span>Russian, English</li>
-                            <li><span>Phone </span>+375 29 689 30 21</li>
-                            <li><span> Email </span>askerko50@gmail.com</li>
-                            <li><span>Address </span>Borisov</li>
-                            <li><span>Possibility of remote work</span> Yes</li>
-                        </ul>
-                    </div>
+                    <ul className={s.personalInfo}>
+                        <li><span>First Name </span> Alexandr</li>
+                        <li><span>Last Name </span> Askerko</li>
+                        <li><span>Birthdate </span>26 october 1991</li>
+                        <li><span>Nationality </span>Belarus</li>
+                        <li><span>Experience </span>1 years</li>
+                    </ul>
+                    <ul className={s.personalInfo}>
+                        <li><span> Langages </span>Russian, English</li>
+                        <li><span>Phone </span>+375 29 689 30 21</li>
+                        <li><span> Email </span>askerko50@gmail.com</li>
+                        <li><span>Address </span>Borisov</li>
+                        <li><span>Possibility of remote work</span> Yes</li>
+                    </ul>
                     <div className={s.containerCV}><Button name={'download my cv'}></Button></div>
                 </div>
-
             </div>
             <hr className={s.aboutHr}/>
             <div className={s.expEdContainer}>
@@ -109,7 +106,7 @@ export const AboutMe = () => {
             <div className={s.skillsSection}>
                 <h2>Skills</h2>
                 <div className={s.skillsContainer}>
-                {skillData.map(s=><Skill key={s.name} name={s.name} icon={s.icon} />)}
+                    {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
                 </div>
             </div>
         </div>
