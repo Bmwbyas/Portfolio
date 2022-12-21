@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.07b87610.css",
-    "main.js": "/portfolio/static/js/main.3e7dc001.js",
+    "main.css": "/portfolio/static/css/main.1ccadace.css",
+    "main.js": "/portfolio/static/js/main.89082ee6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/social_media.jpg": "/portfolio/static/media/social_media.b5d0554a8d0e2a8a6e98.jpg",
     "static/media/photoAvatar.png": "/portfolio/static/media/photoAvatar.cef96fb76001c576b5b6.png",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.6f144ff8d2579a5dca20.jpg",
     "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.169329277b3468489084.jpg",
+    "static/media/icons8-github.svg": "/portfolio/static/media/icons8-github.ae47e035da5183d78927cdb8b4808d60.svg",
+    "static/media/icons8-telegram.svg": "/portfolio/static/media/icons8-telegram.94b6e9bd12d1b757dd24a090d0933dfe.svg",
     "static/media/sass-alt-svgrepo-com.svg": "/portfolio/static/media/sass-alt-svgrepo-com.7e2b21f1bc4de7fb20d8cfbe887b6e1b.svg",
     "static/media/react-svgrepo-com.svg": "/portfolio/static/media/react-svgrepo-com.6dc4afc7ebb14f4e1c6ef4f834856fda.svg",
     "static/media/jest-svgrepo-com.svg": "/portfolio/static/media/jest-svgrepo-com.6594bc6f3410bdb3c1db16f123938541.svg",
+    "static/media/icons8-whatsapp.svg": "/portfolio/static/media/icons8-whatsapp.2622267681115eaeb7251b8cfc8932bd.svg",
     "static/media/html-5-logo-svgrepo-com.svg": "/portfolio/static/media/html-5-logo-svgrepo-com.97ee7c28d5b7c5abcce7caa87d8b1f30.svg",
     "static/media/redux-svgrepo-com.svg": "/portfolio/static/media/redux-svgrepo-com.5eb60fb9445017057f5f8501e3b74773.svg",
     "index.html": "/portfolio/index.html",
@@ -17,12 +20,12 @@
     "static/media/css-fill-svgrepo-com.svg": "/portfolio/static/media/css-fill-svgrepo-com.49152f58eb400df70b1c8e0a832e16e3.svg",
     "static/media/javascript-svgrepo-com.svg": "/portfolio/static/media/javascript-svgrepo-com.1352360afdc27bc998bdc839dfa93374.svg",
     "static/media/typescript-svgrepo-com.svg": "/portfolio/static/media/typescript-svgrepo-com.3972f505de5d8379b48eefacf417f588.svg",
-    "main.07b87610.css.map": "/portfolio/static/css/main.07b87610.css.map",
-    "main.3e7dc001.js.map": "/portfolio/static/js/main.3e7dc001.js.map",
+    "main.1ccadace.css.map": "/portfolio/static/css/main.1ccadace.css.map",
+    "main.89082ee6.js.map": "/portfolio/static/js/main.89082ee6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b87610.css",
-    "static/js/main.3e7dc001.js"
+    "static/css/main.1ccadace.css",
+    "static/js/main.89082ee6.js"
   ]
 }
