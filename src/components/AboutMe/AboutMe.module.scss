@@ -9,15 +9,24 @@
     @include flex(row, center, center, wrap);
 
     .photoContainer {
+
       padding: 0 10px;
       position: relative;
+
       width: 440px;
       height: 440px;
       background-size: contain;
       z-index: 0;
       margin-right: 50px;
-
+      @media (max-width: 971px) {
+        width: 80%;
+        margin-right: 0;
+      }
       .photo {
+
+        @media (max-width: 490px) {
+          max-width: 360px;
+        }
         width: 440px;
         height: 440px;
         z-index: 3;
@@ -26,7 +35,7 @@
 
       &:before {
         display: inline-block;
-        @media (max-width: 600px) {
+        @media (max-width: 971px) {
           display: none;
         }
         position: absolute;

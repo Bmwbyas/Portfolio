@@ -80,8 +80,8 @@ export const AboutMe = () => {
             <div className={s.mainContainer}>
 
                 <Fade direction={"left"}>
-                    <div className={s.photoContainer}>
-                        <div className={s.photo} style={myAvatar}></div>
+                    <div   className={s.photoContainer}>
+                        <div className={s.photo} style={myAvatar} ></div>
                     </div>
                 </Fade>
                 <Fade direction={"right"}>

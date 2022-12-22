@@ -18,8 +18,11 @@ export const Project = (props:WorKPropsType) => {
                 <div className={s.descriptionContainer}>
                     <h3 className={s.titleProject}>{props.nameProject}</h3>
                     <p className={s.descriptionProject}>{props.description}</p>
+                    <Button name={'view project'}/>
+
+                    <Button name={'view repository'}/>
                 </div>
-                <Button name={'view project'}/>
+
             </div>
 
 

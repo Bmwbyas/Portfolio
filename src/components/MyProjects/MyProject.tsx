@@ -5,6 +5,7 @@ import {Title} from "../../common/components/title/Title";
 import socialImage from './../../assets/image/social_media.jpg'
 import todolistImage from './../../assets/image/todolist.jpg'
 import cardImage from './../../assets/image/educationCard.png'
+import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
 
 export const MyProject = () => {
     const educationCards={
@@ -26,6 +27,7 @@ export const MyProject = () => {
         <div className={s.myWorksBlock}>
             <div className={s.myWorkContainer}>
                 <Title title={'My '} span={'Project'}/>
+                <TitleDesc text={'here are some of my projects.'}/>
                 <div className={s.work}>
                     <Project imageIcon={social} nameProject={'Social network'}
                              description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
