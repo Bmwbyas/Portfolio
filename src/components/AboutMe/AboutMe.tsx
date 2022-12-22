@@ -8,6 +8,7 @@ import {skillData} from "./Skill/skillData";
 import {Skill} from "./Skill/Skill";
 import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
 import {Title} from "../../common/components/title/Title";
+import {Fade} from "react-awesome-reveal";
 
 export type ExpEdDataType = {
     years: string
@@ -72,44 +73,54 @@ export const AboutMe = () => {
     ]
     return (
         <div className={s.mainBlock}>
-
-            <Title title={'About'} span={'me'}/>
-            <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'}/>
+            <Fade direction={"down"}>
+                <Title title={'About'} span={'me'}/>
+                <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'}/>
+            </Fade>
             <div className={s.mainContainer}>
 
-                <div className={s.photoContainer}>
-                    <div className={s.photo} style={myAvatar}></div>
-                </div>
-                <div className={s.intro}>
-                    <ul className={s.personalInfo}>
-                        <li><span>First Name </span> Alexandr</li>
-                        <li><span>Last Name </span> Askerko</li>
-                        <li><span>Birthdate </span>26 october 1991</li>
-                        <li><span>Nationality </span>Belarus</li>
-                        <li><span>Experience </span>1 years</li>
-                    </ul>
-                    <ul className={s.personalInfo}>
-                        <li><span> Langages </span>Russian, English</li>
-                        <li><span>Phone </span>+375 29 689 30 21</li>
-                        <li><span> Email </span>askerko50@gmail.com</li>
-                        <li><span>Address </span>Borisov</li>
-                        <li><span>Possibility of remote work</span> Yes</li>
-                    </ul>
-                    <div className={s.containerCV}><Button name={'download my cv'}></Button></div>
-                </div>
+                <Fade direction={"left"}>
+                    <div className={s.photoContainer}>
+                        <div className={s.photo} style={myAvatar}></div>
+                    </div>
+                </Fade>
+                <Fade direction={"right"}>
+                    <div className={s.intro}>
+                        <ul className={s.personalInfo}>
+                            <li><span>First Name </span> Alexandr</li>
+                            <li><span>Last Name </span> Askerko</li>
+                            <li><span>Birthdate </span>26 october 1991</li>
+                            <li><span>Nationality </span>Belarus</li>
+                            <li><span>Experience </span>1 years</li>
+                        </ul>
+                        <ul className={s.personalInfo}>
+                            <li><span> Langages </span>Russian, English</li>
+                            <li><span>Phone </span>+375 29 689 30 21</li>
+                            <li><span> Email </span>askerko50@gmail.com</li>
+                            <li><span>Address </span>Borisov</li>
+                            <li><span>Possibility of remote work</span> Yes</li>
+                        </ul>
+                        <div className={s.containerCV}><Button name={'download my cv'}></Button></div>
+                    </div>
+                </Fade>
             </div>
             <hr className={s.aboutHr}/>
-            <div className={s.expEdContainer}>
-                <Card title={'expirience'} cardsData={expirienseData}/>
-                <Card title={'education'} cardsData={educationData}/>
-            </div>
-            <div className={s.skillsSection}>
-                <h2>Skills</h2>
-                <div className={s.skillsContainer}>
-                    {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
+            <Fade>
+                <div className={s.expEdContainer}>
+                    <Card title={'expirience'} cardsData={expirienseData}/>
+                    <Card title={'education'} cardsData={educationData}/>
                 </div>
-            </div>
+            </Fade>
+            <Fade direction={"left"}>
+                <div className={s.skillsSection}>
+                    <h2>Skills</h2>
+                    <div className={s.skillsContainer}>
+                        {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
+                    </div>
+                </div>
+            </Fade>
         </div>
-    );
+    )
+        ;
 };
 

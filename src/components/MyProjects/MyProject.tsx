@@ -4,10 +4,11 @@ import {Project} from "./Project/Project";
 import {Title} from "../../common/components/title/Title";
 import socialImage from './../../assets/image/social_media.jpg'
 import todolistImage from './../../assets/image/todolist.jpg'
+import cardImage from './../../assets/image/educationCard.png'
 
 export const MyProject = () => {
     const educationCards={
-        backgroundImage: 'url(' + socialImage + ')',
+        backgroundImage: 'url(' + cardImage + ')',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
     }

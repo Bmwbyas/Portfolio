@@ -9,7 +9,7 @@ height: 100vh;
   background-repeat: no-repeat;
   .mainContainer {
     //@include container;
-    @include flex(row,center,space-between,wrap);
+      @include flex(row,center,space-between,wrap);
     height: 100%;
     @media (max-width: 769px) {
       justify-content: center;

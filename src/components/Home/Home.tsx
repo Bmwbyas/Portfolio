@@ -3,6 +3,8 @@ import s from './Home.module.scss'
 import myPhoto from "../../assets/image/photoAvatar.png";
 import {NavLink} from "react-router-dom";
 import {routes} from "../../Routes/routes";
+import ReactTypingEffect from 'react-typing-effect';
+
 
 export const Home = () => {
     const myAvatar = {
@@ -17,9 +19,14 @@ export const Home = () => {
                 <div className={s.intro}>
                     <div>
                     <h3> hi there</h3>
-
-                    <h1><div>I'M <span>Askerko Alexandr</span></div></h1>
-                    <p className={s.description}>I'm a frontend Developer based in Borisov, Belarus.<br/>
+                    <h1><div>I'M <span> <ReactTypingEffect
+                        text={["Askerko Alexandr", "a frontend developer"]}
+                        speed={150}
+                        eraseDelay={500}
+                         typingDelay={200}
+                         eraseSpeed={150}
+                    /></span></div></h1>
+                    <p className={s.description}>I'm a frontend Developer based in Belarus.<br/>
                         I strives to build web applications through carefully crafted code and users.</p>
                     </div>
                     <div className={s.navContainer}>

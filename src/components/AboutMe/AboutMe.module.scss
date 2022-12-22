@@ -15,7 +15,7 @@
       height: 440px;
       background-size: contain;
       z-index: 0;
-      margin-right: 30px;
+      margin-right: 50px;
 
       .photo {
         width: 440px;
@@ -71,7 +71,6 @@
           padding-bottom: 21px;
 
           span {
-
             margin-bottom: 7px;
             opacity: 0.8;
           }
@@ -202,7 +201,6 @@
     .skillsContainer {
       @include flex(row, center, center, wrap);
     }
-
   }
 }
 
