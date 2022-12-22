@@ -4,7 +4,7 @@
 
 
   .burger {
-    z-index: 2;
+
     margin-left: 15px;
     margin-top: 15px;
     display: flex;
@@ -57,7 +57,7 @@
       opacity: 0;
     }
     .background{
-      z-index: 0;
+
       position: absolute;
       width: 60px;
       height: 60px;

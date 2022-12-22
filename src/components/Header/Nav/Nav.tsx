@@ -38,7 +38,7 @@ export const Nav:React.FC<NavPropsType> = ({showNav,isShow}) => {
         showNav(false)
         setActivePage(true)
     }
-    const showNavigate=isShow? s.nav: s.noViewNav
+    const showNavigate=isShow? s.nav: `${s.nav} ${s.noViewNav}`
     const navLinkClassName=activePage?s.navItem+' '+s.navItemActive:s.navItem
     return (
         <div className={showNavigate}>

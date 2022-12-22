@@ -1,9 +1,8 @@
 @import "src/common/styles/sass/variables";
-.noViewNav{
-  display: none;
 
-}
 .nav {
+  z-index: 5;
+  transform: translate(0 ,0);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,7 +18,7 @@
     position: relative;
     height: 50px;
     line-height: 50px;
-    z-index: 2;
+    z-index: 5;
     text-transform: uppercase;
     font-size: 16px;
     transition: color 0.2s;
@@ -43,11 +42,17 @@
       padding-right: 10px;
     }
   }
+
   .navItemActive{
     //color: $activeColor;
     //background-color: $secondBgColor;
     //border-end-end-radius: 10px;
     //border-top-right-radius: 10px;
   }
+}
+.noViewNav{
+  transform: translate(0,-300px );
+  transition: 0.5s;
+  z-index: 5;
 }
 
