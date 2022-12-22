@@ -25,25 +25,7 @@
       margin-top: 15px;
       margin-left: 10px;
       opacity: 0;
-      .titleProject {
-        z-index: 2;
-        display: block;
-        margin: 0 0 5px;
-        @include text($fontH, 16px);
-        letter-spacing: 1px;
-        color: $titleColor;
-        text-transform: uppercase;
-      }
-      .descriptionProject {
 
-        display: block;
-        margin: 11px 0 23px;
-        @include text($fontMainPageText, 14px);
-        line-height: 32px;
-        font-weight: 400;
-        color: $textColor;
-        min-height: 60px;
-      }
       &:hover {
         opacity: 1;
         &::before {
@@ -57,22 +39,44 @@
           z-index: 0;
           opacity: 0.8;
         }
-        .descriptionProject {
-
+        .titleProject {
+          z-index: 2;
+          position: relative;
+          text-align: center;
           display: block;
-          margin: 11px 0 23px;
+          margin: 0 0 5px;
+          @include text($fontH, 16px);
+          letter-spacing: 1px;
+          color: $titleColor;
+          text-transform: uppercase;
+        }
+        .buttonContainer{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          button:first-child{
+            margin-bottom: 10px;
+          }
+        }
+
+        .descriptionProject {
+          position: relative;
+          display: block;
+          text-align: center;
+          margin: 11px 20px;
           @include text($fontMainPageText, 14px);
           line-height: 32px;
           font-weight: 400;
           color: $textColor;
           min-height: 60px;
-          background:red;
         }
 
       }
 
       button {
         position: relative;
+        justify-content: center;
       }
     }
 

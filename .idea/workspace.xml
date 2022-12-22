@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(header burger animation )">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(about me margin for mobile )">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/components/TitleDesc/TitleDesc.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/TitleDesc/TitleDesc.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" afterDir="false" />
     </list>
@@ -100,7 +97,7 @@
       <workItem from="1671688559214" duration="6146000" />
       <workItem from="1671706131920" duration="2589000" />
       <workItem from="1671708819017" duration="2207000" />
-      <workItem from="1671727403504" duration="2702000" />
+      <workItem from="1671727403504" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671708990032</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix(about me margin for mobile )">
+      <created>1671730760101</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671730760102</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +244,7 @@
     <MESSAGE value="fix(view fo phone )" />
     <MESSAGE value="feat(animation about me )" />
     <MESSAGE value="fix(header burger animation )" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(header burger animation )" />
+    <MESSAGE value="fix(about me margin for mobile )" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(about me margin for mobile )" />
   </component>
 </project>
