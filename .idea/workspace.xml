@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(about me margin for mobile )">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="feat(skills)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/TitleDesc/TitleDesc.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/TitleDesc/TitleDesc.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Skill/Skill.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Skill/Skill.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Skill/skillData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/skillData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\программирование\Portfolio\portfolio\src\components\Skills" />
       <recent name="C:\программирование\Portfolio\portfolio\src\assets\image" />
       <recent name="C:\программирование\Portfolio\portfolio\src\common\components" />
     </key>
@@ -97,7 +109,8 @@
       <workItem from="1671688559214" duration="6146000" />
       <workItem from="1671706131920" duration="2589000" />
       <workItem from="1671708819017" duration="2207000" />
-      <workItem from="1671727403504" duration="3369000" />
+      <workItem from="1671727403504" duration="3423000" />
+      <workItem from="1671773131771" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -211,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671730760102</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix(my project fix button and description)">
+      <created>1671731252572</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671731252572</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +265,8 @@
     <MESSAGE value="feat(animation about me )" />
     <MESSAGE value="fix(header burger animation )" />
     <MESSAGE value="fix(about me margin for mobile )" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(about me margin for mobile )" />
+    <MESSAGE value="fix(my project fix button and description)" />
+    <MESSAGE value="feat(skills)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(skills)" />
   </component>
 </project>

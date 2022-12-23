@@ -21,6 +21,7 @@ export const Home = () => {
                     <h3> hi there</h3>
                     <h1><div>I'M <span> <ReactTypingEffect
                         text={["Askerko Alexandr", "a frontend developer"]}
+
                         speed={150}
                         eraseDelay={500}
                          typingDelay={200}

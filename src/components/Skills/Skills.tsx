@@ -1,22 +1,27 @@
 import React from 'react';
 import s from './Skills.module.scss'
-import styleContainer from '../../common/styles/Container.module.scss'
-import Skill from "./Skill/Skill";
-import {Title} from "../../common/components/title/Title";
 
-const Skills = () => {
+import {Title} from "../../common/components/title/Title";
+import {skillData} from "./Skill/skillData";
+import {Fade} from "react-awesome-reveal";
+import {Skill} from "./Skill/Skill";
+
+
+export const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
-            <div className={styleContainer.container+' '+s.skillsContainer}>
+
+            <div className={s.skillsContainer}>
                 <Title title={'skills'}/>
-                <div className={s.skills}>
-                    <Skill title={'React'} description={'bla fdsf saf s fsdf sdfsdf sf dsfsdf sfsdf sfdsadfs sf'}/>
-                    <Skill title={'JS'} description={' asfdf asdfasdf sadf as '}/>
-                    <Skill title={'CSS'} description={' sfdsf asfdf asdfasdf sadf as'}/>
-                </div>
+                <Fade direction={"left"}>
+                    <div className={s.skillsSection}>
+                        <h2>Technical skills</h2>
+                        <div className={s.skillsContainer}>
+                            {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
+                        </div>
+                    </div>
+                </Fade>
             </div>
-        </div>
+
     );
 };
 
-export default Skills;

@@ -9,6 +9,7 @@ import {AboutMe} from "./components/AboutMe/AboutMe";
 
 import React from "react";
 import s from './App.module.scss'
+import {Skills} from "./components/Skills/Skills";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path={routes.aboutMe} element={<AboutMe/>}/>
                 <Route path={routes.myProjects} element={ <MyProject/>}/>
                 <Route path={routes.contact} element={<Contacts/>}/>
+                <Route path={routes.skills} element={<Skills/>}/>
                 <Route path={routes.error404} element={<h1>PAGE NOT FOUND</h1>}/>
                 <Route path='*' element={<Navigate to='/404'/>}/>
             </Routes>

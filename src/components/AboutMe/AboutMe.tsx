@@ -3,9 +3,6 @@ import s from './AboutMe.module.scss'
 import myPhoto from "../../assets/image/myPhoto.jpg";
 import {Button} from "../../common/components/Button/Button";
 import {Card} from "./Card/Card";
-
-import {skillData} from "./Skill/skillData";
-import {Skill} from "./Skill/Skill";
 import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
@@ -97,7 +94,7 @@ export const AboutMe = () => {
                             <li><span> Langages </span>Russian, English</li>
                             <li><span>Phone </span>+375 29 689 30 21</li>
                             <li><span> Email </span>askerko50@gmail.com</li>
-                            <li><span>Address </span>Borisov</li>
+                            <li><span>Telegram </span>@askerkoSasha</li>
                             <li><span>Possibility of remote work</span> Yes</li>
                         </ul>
                         <div className={s.containerCV}><Button name={'download my cv'}></Button></div>
@@ -111,14 +108,14 @@ export const AboutMe = () => {
                     <Card title={'education'} cardsData={educationData}/>
                 </div>
             </Fade>
-            <Fade direction={"left"}>
-                <div className={s.skillsSection}>
-                    <h2>Skills</h2>
-                    <div className={s.skillsContainer}>
-                        {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
-                    </div>
-                </div>
-            </Fade>
+            {/*<Fade direction={"left"}>*/}
+            {/*    <div className={s.skillsSection}>*/}
+            {/*        <h2>Skills</h2>*/}
+            {/*        <div className={s.skillsContainer}>*/}
+            {/*            {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</Fade>*/}
         </div>
     )
         ;

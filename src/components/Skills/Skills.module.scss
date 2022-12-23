@@ -1,18 +1,19 @@
-@import "../../common/styles/sass/variables";
-.skillsBlock{
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
 
-    .skillsContainer{
-        flex-direction: column;
-        justify-content: flex-start;
-        .skills{
-            width: 100%;
-            border:1px solid;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    }
+.skillsContainer {
+  @include flex(column, flex-start, center, wrap);
+  @include container();
+
+  .skills {
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
+
 
 //.title{
 //    display: block;

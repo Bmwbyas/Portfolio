@@ -6,6 +6,8 @@ import aboutMeImage from "../../../assets/image/socialIcon/icons8-user.png";
 import contactImage from "../../../assets/image/socialIcon/icons8-chat.png";
 import homeImage from "../../../assets/image/icons8-home.png";
 import projectsImage from "../../../assets/image/icons8-projects.png";
+import skillImage from "../../../assets/image/socialIcon/icons8-skills.png";
+
 
 type NavPropsType={
     showNav:(show:boolean)=>void
@@ -26,6 +28,11 @@ export const Nav:React.FC<NavPropsType> = ({showNav,isShow}) => {
     }
     const aboutMeIcon={
         backgroundImage: 'url(' +aboutMeImage + ')',
+        backgroundSize: 'contain',
+        backgroundPosition: 'center'
+    }
+    const skillIcon={
+        backgroundImage: 'url(' +skillImage + ')',
         backgroundSize: 'contain',
         backgroundPosition: 'center'
     }
@@ -50,6 +57,10 @@ export const Nav:React.FC<NavPropsType> = ({showNav,isShow}) => {
                 <span className={s.navIcon} style={aboutMeIcon}></span>
                 <span className={s.navItemTitle}>About me</span>
             </NavLink>
+            <NavLink className={navLinkClassName} to={routes.skills} onClick={showNavHandler}>
+                <span className={s.navIcon} style={skillIcon}></span>
+                <span className={s.navItemTitle}>skills</span>
+            </NavLink>
             <NavLink className={navLinkClassName} to={routes.myProjects} onClick={showNavHandler}>
                 <span className={s.navIcon} style={myProjectsIcon}></span>
                 <span className={s.navItemTitle}>my projects</span>
@@ -58,6 +69,7 @@ export const Nav:React.FC<NavPropsType> = ({showNav,isShow}) => {
                 <span className={s.navIcon} style={contactsIcon}></span>
                 <span className={s.navItemTitle}>Contacts</span>
             </NavLink>
+
         </div>
     );
 };
