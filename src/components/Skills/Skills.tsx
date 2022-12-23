@@ -15,16 +15,45 @@ export const Skills = () => {
     const softSkills: SoftSkillDataType[] =
         [
             {
-                skill: '06.2022-PRESENT',
+                skill: 'communication ',
                 description: `Sect for frontend and backend developers.
             This is the place where I realized that I like the frontend.`
             },
             {
-                skill: '06.2022-PRESENT',
+                skill: 'teamwork',
                 description: `Sect for frontend and backend developers.
             This is the place where I realized that I like the frontend.`
             },
-
+            {
+                skill: 'problem-solving',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
+            {
+                skill: 'Self-learning',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
+            {
+                skill: 'Emotional intelligence',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
+            {
+                skill: 'Open-Mindedness',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
+            {
+                skill: 'Accountability',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
+            {
+                skill: 'Adaptability',
+                description: `Sect for frontend and backend developers.
+            This is the place where I realized that I like the frontend.`
+            },
         ]
 
     return (
@@ -34,12 +63,6 @@ export const Skills = () => {
             <div className={s.skillsContainer}>
                 <Fade direction={"left"}>
                     <div className={s.skills}>
-                        <h2>Technical skills</h2>
-                        <div className={s.skillsData}>
-                            {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
-                        </div>
-                    </div>
-                    <div className={s.skills}>
                         <h2>soft skills</h2>
                         <div>
                             {softSkills.map(s => {
@@ -48,6 +71,13 @@ export const Skills = () => {
                             }
                         </div>
                     </div>
+                    <div className={s.skills}>
+                        <h2>Technical skills</h2>
+                        <div className={s.skillsData}>
+                            {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
+                        </div>
+                    </div>
+
                 </Fade>
             </div>
         </div>

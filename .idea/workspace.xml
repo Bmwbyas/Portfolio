@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="refactor(about me)&#10;feat (soft skill)">
-      <change afterPath="$PROJECT_DIR$/src/components/AboutMe/Card/Card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/Card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/Project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SoftSkill/SoftSkill.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1671706131920" duration="2589000" />
       <workItem from="1671708819017" duration="2207000" />
       <workItem from="1671727403504" duration="3423000" />
-      <workItem from="1671773131771" duration="9003000" />
+      <workItem from="1671773131771" duration="10951000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671776918933</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactor(about me)&#10;feat (soft skill)">
+      <created>1671782634879</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671782634879</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -28,12 +28,11 @@ export const Home = () => {
                          eraseSpeed={150}
                     /></span></div></h1>
                     <p className={s.description}>I'm a frontend Developer based in Belarus.<br/>
-                        I strives to build web applications through carefully crafted code and users.</p>
+                        I strives to build web applications through carefully crafted code.</p>
                     </div>
                     <div className={s.navContainer}>
                         <NavLink to={routes.aboutMe} className={s.navItem}>more about me</NavLink>
                         <NavLink to={routes.myProjects} className={s.navItem}>my projects</NavLink>
-
                     </div>
                 </div>
 

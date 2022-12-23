@@ -47,7 +47,7 @@
           margin: 0 0 5px;
           @include text($fontH, 16px);
           letter-spacing: 1px;
-          color: $titleColor;
+          color: $activeColor;
           text-transform: uppercase;
         }
         .buttonContainer{
