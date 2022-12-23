@@ -53,17 +53,14 @@
     .intro {
 
       display: grid;
-
       grid-template-columns: 1fr 1fr;
       @media (max-width: 550px) {
         grid-template-columns: 1fr;
       }
       margin-top: 60px;
 
-
       .personalInfo {
         width: 100%;
-
         text-align: left;
         list-style: none;
         padding: 0;
@@ -105,92 +102,7 @@
     @include container();
     @include flex(row, flex-start, center, wrap);
 
-    .expirienceContainer {
 
-      width: 50%;
-      @media (max-width: 605px) {
-        width: 100%;
-      }
-      text-align: left;
-
-      .titleExpEd {
-        text-align: left;
-        color: $titleColor;
-        text-transform: uppercase;
-        font-weight: 500;
-        margin-bottom: 50px;
-        @include text($fontH, 23px);
-      }
-
-      .itemExpEd {
-        position: relative;
-
-        &:before {
-          content: '';
-          height: 100%;
-          left: 7px;
-          opacity: .6;
-          position: absolute;
-          top: 0;
-          width: 1px;
-          border-left: 1px solid #ffb400;
-        }
-
-        .bullet {
-          position: absolute;
-          border: 2px solid #ffb400;
-          left: 0;
-          top: -13px;
-          width: 15px;
-          height: 15px;
-          border-radius: 50%;
-
-        }
-      }
-
-      .card {
-
-        .cardHeader {
-          .years {
-            @include text($fontMainPageText, 13px);
-            opacity: .8;
-            font-weight: 400;
-            margin-bottom: 15px;
-          }
-
-          .place {
-            @include text($fontH, 16px);
-            font-weight: 500;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-          }
-        }
-
-        .cardContent {
-          color: $textColor;
-          @include text($fontMainPageText, 14px);
-          font-weight: 400;
-
-          margin: 0;
-          line-height: 28px;
-          padding-bottom: 28px;
-
-          &:last-child {
-            padding-bottom: 0;
-          }
-        }
-
-        color: $textColor;
-        margin-left: 39px;
-        margin-bottom: 12px;
-        margin-right: 20px;
-        @include text($fontH, 16px);
-        font-weight: 400;
-        min-width: 0;
-        word-wrap: break-word;
-        line-height: 1.5;
-      }
-    }
   }
 
   .skillsSection {

@@ -1,0 +1,20 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.container{
+  color: $textColor;
+  .skill{
+    @include text($fontH, 16px);
+    font-weight: 500;
+    text-transform: uppercase;
+
+  }
+  .description{
+    @include text($fontMainPageText, 14px);
+
+    font-weight: 400;
+    margin: 0;
+    line-height: 28px;
+    padding: 28px 0;
+  }
+}

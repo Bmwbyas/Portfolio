@@ -77,8 +77,8 @@ export const AboutMe = () => {
             <div className={s.mainContainer}>
 
                 <Fade direction={"left"}>
-                    <div   className={s.photoContainer}>
-                        <div className={s.photo} style={myAvatar} ></div>
+                    <div className={s.photoContainer}>
+                        <div className={s.photo} style={myAvatar}></div>
                     </div>
                 </Fade>
                 <Fade direction={"right"}>
@@ -108,14 +108,6 @@ export const AboutMe = () => {
                     <Card title={'education'} cardsData={educationData}/>
                 </div>
             </Fade>
-            {/*<Fade direction={"left"}>*/}
-            {/*    <div className={s.skillsSection}>*/}
-            {/*        <h2>Skills</h2>*/}
-            {/*        <div className={s.skillsContainer}>*/}
-            {/*            {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</Fade>*/}
         </div>
     )
         ;

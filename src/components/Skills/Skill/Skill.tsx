@@ -10,7 +10,6 @@ export const Skill:React.FC<SkillType> = ({name,icon}) => {
         <div className={s.container}>
             <div><img className={s.img} src={icon} alt={name}/></div>
             <div className={s.name}> {name}</div>
-
         </div>
     );
 };
