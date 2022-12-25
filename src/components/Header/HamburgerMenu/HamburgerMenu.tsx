@@ -1,9 +1,12 @@
-import React, {LegacyRef, useState} from 'react';
+import React, {LegacyRef} from 'react';
 import s from './HamburgerMenu.module.scss'
 import {Nav} from "../Nav/Nav";
+type HamburgerMenuType={
+    showMenu:boolean
+    setShowMenu:(showMenu:boolean)=>void
+}
+export const HamburgerMenu:React.FC<HamburgerMenuType> = ({showMenu,setShowMenu}) => {
 
-export const HamburgerMenu = () => {
-    const [showMenu, setShowMenu] = useState(false)
     const root:LegacyRef<HTMLDivElement> | undefined|null  = React.useRef(null);
 
     React.useEffect(() => {

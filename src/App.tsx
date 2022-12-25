@@ -7,24 +7,19 @@ import {routes} from "./Routes/routes";
 import {MyProject} from './components/MyProjects/MyProject';
 import {AboutMe} from "./components/AboutMe/AboutMe";
 
-import React from "react";
+import React, {useState} from "react";
 import s from './App.module.scss'
 
 function App() {
+    const [showMenu, setShowMenu] = useState(false)
 
-
-    // return (
-    //     <div>
-    //         <h2>Width: {windowSize}</h2>
-    //     </div>
-    // );
 
     return (
         <div className={s.App}>
-            <Header />
+            <Header showMenu={showMenu} setShowMenu={setShowMenu}  />
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path={routes.home} element={<Home/>}/>
+                <Route path='/' element={<Home  setShowMenu={setShowMenu} />}/>
+                <Route path={routes.home} element={<Home  setShowMenu={setShowMenu} />}/>
                 <Route path={routes.aboutMe} element={<AboutMe/>}/>
                 <Route path={routes.myProjects} element={ <MyProject/>}/>
                 <Route path={routes.contact} element={<Contacts/>}/>

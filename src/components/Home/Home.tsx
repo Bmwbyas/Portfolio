@@ -4,13 +4,32 @@ import myPhoto from "../../assets/image/photoAvatar.png";
 import {NavLink} from "react-router-dom";
 import {routes} from "../../Routes/routes";
 import ReactTypingEffect from 'react-typing-effect';
+type HomeType={
 
+    setShowMenu:(showMenu:boolean)=>void
+}
 
-export const Home = () => {
+export const Home :React.FC<HomeType>= ({setShowMenu}) => {
     const myAvatar = {
         backgroundImage: 'url(' + myPhoto + ')',
 
     };
+    const [windowSize, setWindowSize] = React.useState(
+        window.innerWidth
+    );
+
+    React.useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowSize(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        };
+    });
+    if(windowSize<=1060){setShowMenu(true)}
     return (
         <div style={myAvatar}   className={s.mainBlock}>
             <div   className={s.mainContainer}>
