@@ -29,11 +29,17 @@ export const MyProject = () => {
                 <Title title={'My '} span={'Project'}/>
                 <TitleDesc text={'here are some of my projects'}/>
                 <div className={s.work}>
-                    <Project imageIcon={social} nameProject={'Social network'}
+                    <Project project={'https://bmwbyas.github.io/samurai-way-main/'}
+                             repository={'https://github.com/Bmwbyas/samurai-way-main'}
+                             imageIcon={social} nameProject={'Social network'}
                              description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
-                    <Project imageIcon={toDoList} nameProject={'to-do list'}
+                    <Project   imageIcon={toDoList} nameProject={'to-do list'}
+                               project={'https://bmwbyas.github.io/todolist-project/'}
+                               repository={'https://github.com/Bmwbyas/todolist-project'}
                              description={`Add your tasks.Organize your life.Achieve more every day.`}/>
                     <Project imageIcon={educationCards} nameProject={'Educational cards'}
+                             project={'https://nazaruk-d.github.io/EducationCards/'}
+                             repository={'https://github.com/Nazaruk-D/EducationCards'}
                              description={`An application that allows you to learn from flashcards that are created by the user himself or by another user`}/>
                 </div>
             </div>

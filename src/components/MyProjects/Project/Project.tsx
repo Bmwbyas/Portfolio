@@ -1,8 +1,10 @@
 import React from 'react';
 import s from './Project.module.scss'
-import {Button} from "../../../common/components/Button/Button";
+
 
 type WorKPropsType = {
+    repository:string
+    project:string
     nameProject: string
     description: string
     imageIcon: {
@@ -19,9 +21,9 @@ export const Project = (props: WorKPropsType) => {
                 <div className={s.descriptionContainer}>
                     <h3 className={s.titleProject}>{props.nameProject}</h3>
                     <p className={s.descriptionProject}>{props.description}</p>
-                    <div className={s.buttonContainer}>
-                        <Button name={'view project'}/>
-                        <Button name={'view repository'}/>
+                    <div className={s.navContainer}>
+                        <a className={s.nav} href={props.project} target="_blank">view project</a>
+                        <a className={s.nav} href={props.repository} target="_blank">view repository</a>
                     </div>
                 </div>
             </div>
