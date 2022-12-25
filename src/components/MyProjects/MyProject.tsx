@@ -2,7 +2,7 @@ import React from 'react';
 import s from './MyProject.module.scss'
 import {Project} from "./Project/Project";
 import {Title} from "../../common/components/title/Title";
-import socialImage from './../../assets/image/social_media.jpg'
+import socialImage from './../../assets/image/socialMedia.jpg'
 import todolistImage from './../../assets/image/todolist.jpg'
 import cardImage from './../../assets/image/educationCard.png'
 import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
