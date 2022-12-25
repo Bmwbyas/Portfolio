@@ -24,11 +24,7 @@ export const Project = (props: WorKPropsType) => {
                         <Button name={'view repository'}/>
                     </div>
                 </div>
-
-
             </div>
-
-
         </div>
     );
 };

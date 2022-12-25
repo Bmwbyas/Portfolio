@@ -1,38 +1,18 @@
 @import "src/common/styles/sass/variables";
 @import "src/common/styles/sass/mixins";
 
-.skillsWrapper {
-
-  @include container();
-
-  .skillsContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @media (max-width: 700px) {
-      grid-template-columns: 1fr
-    }
     .skills {
       h2{
-        text-align: left;
+        text-align: center;
         color: $titleColor;
         text-transform: uppercase;
         font-weight: 500;
         margin-bottom: 50px;
         @include text($fontH, 23px);
       }
-      @include flex(column, flex-start, center, wrap);
+
       .skillsData{
         @include flex(row, flex-start, center, wrap);
       }
 
     }
-  }
-
-}
-
-
-//.title{
-//    display: block;
-//background-color: gainsboro;
-//    border: 1px solid chartreuse;
-//}

@@ -6,6 +6,7 @@ import {Card} from "./Card/Card";
 import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
+import {Skills} from "../Skills/Skills";
 
 export type ExpEdDataType = {
     years: string
@@ -108,6 +109,7 @@ export const AboutMe = () => {
                     <Card title={'education'} cardsData={educationData}/>
                 </div>
             </Fade>
+           <Skills/>
         </div>
     )
         ;

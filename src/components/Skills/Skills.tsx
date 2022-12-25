@@ -1,87 +1,67 @@
 import React from 'react';
 import s from './Skills.module.scss'
-
-import {Title} from "../../common/components/title/Title";
-import {skillData} from "./Skill/skillData";
+import {skillData} from "../AboutMe/Skill/skillData";
 import {Fade} from "react-awesome-reveal";
-import {Skill} from "./Skill/Skill";
-import {SoftSkill} from "./SoftSkill/SoftSkill";
+import {Skill} from "../AboutMe/Skill/Skill";
 
-type SoftSkillDataType = {
-    skill: string
-    description: string
-}
+// type SoftSkillDataType = {
+//     skill: string
+//     description: string
+// }
 export const Skills = () => {
-    const softSkills: SoftSkillDataType[] =
-        [
-            {
-                skill: 'communication ',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'teamwork',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'problem-solving',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'Self-learning',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'Emotional intelligence',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'Open-Mindedness',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'Accountability',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-            {
-                skill: 'Adaptability',
-                description: `Sect for frontend and backend developers.
-            This is the place where I realized that I like the frontend.`
-            },
-        ]
+    // const softSkills: SoftSkillDataType[] =
+    //     [
+    //         {
+    //             skill: 'communication ',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'teamwork',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'problem-solving',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'Self-learning',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'Emotional intelligence',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'Open-Mindedness',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'Accountability',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //         {
+    //             skill: 'Adaptability',
+    //             description: `Sect for frontend and backend developers.
+    //         This is the place where I realized that I like the frontend.`
+    //         },
+    //     ]
 
     return (
-
-        <div className={s.skillsWrapper}>
-            <Title title={'skills'}/>
-            <div className={s.skillsContainer}>
                 <Fade direction={"left"}>
                     <div className={s.skills}>
-                        <h2>soft skills</h2>
-                        <div>
-                            {softSkills.map(s => {
-                                return <SoftSkill skill={s.skill} description={s.description}/>
-                            })
-                            }
-                        </div>
-                    </div>
-                    <div className={s.skills}>
-                        <h2>Technical skills</h2>
+                        <h2> skills</h2>
                         <div className={s.skillsData}>
                             {skillData.map(s => <Skill key={s.name} name={s.name} icon={s.icon}/>)}
                         </div>
                     </div>
-
                 </Fade>
-            </div>
-        </div>
-
     );
 };
 
