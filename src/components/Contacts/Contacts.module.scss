@@ -3,7 +3,7 @@
 
 .contactBlock {
   height: 100vh;
-  @media (max-width: 830px) {
+  @media (max-width: 1034px) {
     height: auto;
   }
 
@@ -22,33 +22,35 @@
       }
 
       .myContact {
-        color:$titleColor;
+        color: $titleColor;
         list-style: none;
         text-decoration: none;
         margin: 0;
         padding: 0;
 
 
-
-        li{
+        li {
           padding-bottom: 25px;
-          .text{
+
+          .text {
             text-transform: capitalize;
             margin-bottom: 10px;
-            @include text($fontMainPageText,15px);
+            @include text($fontMainPageText, 15px);
             font-weight: 400;
             opacity: .8;
           }
-          .imgValueCotainer{
+
+          .imgValueCotainer {
 
             position: relative;
-            text-transform: lowercase;
-            @include text($fontMainPageText,16px);
+
+            @include text($fontMainPageText, 16px);
             font-weight: 500;
             padding-left: 35px;
-            .icon{
+
+            .icon {
               position: absolute;
-              left:0;
+              left: 0;
               width: 20px;
               height: 20px;
             }
@@ -57,17 +59,20 @@
       }
 
       .formContainer {
-        p{
-        color:$textColor;
-        margin: 0 0 24px ;
-        @include text($fontMainPageText,16px);
-        line-height: 32px;}
+        p {
+          color: $textColor;
+          margin: 0 0 24px;
+          @include text($fontMainPageText, 16px);
+          line-height: 32px;
+        }
+
         .form {
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
           width: 100%;
           margin-bottom: 50px;
+
           input {
 
             line-height: 30px;
@@ -78,6 +83,7 @@
               width: 100%;
             }
           }
+
           row-gap: 30px;
 
           textarea {
@@ -91,7 +97,7 @@
             border-radius: 30px;
             outline: none;
             transition: .3s;
-            color:$textColor;
+            color: $textColor;
             font-size: 14px;
             background: $secondBgColor;
             overflow: hidden;

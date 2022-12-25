@@ -13,7 +13,7 @@ export const Contacts = () => {
         <div className={s.contactBlock}>
             <div className={s.contactContainer}>
                 <Title title={'Get in'} span={'touch'}/>
-                <TitleDesc text={`I’M ALWAYS OPEN TO DISCUSSING WORK OR PARTNERSHIPS.`}/>
+                <TitleDesc text={`I’M ALWAYS OPEN TO DISCUSSING WORK OR PARTNERSHIPS`}/>
                 <div className={s.container}>
                     <ul className={s.myContact}>
                         <li>
