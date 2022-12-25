@@ -2,7 +2,7 @@
 
 .nav {
   z-index: 5;
-  transform: translate(0 ,0);
+  transform: translate(0, 0);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -10,6 +10,20 @@
   padding-left: 35px;
   transition-duration: .25s;
   transition-delay: .25s;
+  @media (max-width: 1060px) {
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 5;
+    background: $bdColor;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content:  center;
+  }
 
   .navItem {
     display: block;
@@ -22,36 +36,62 @@
     text-transform: uppercase;
     font-size: 16px;
     transition: color 0.2s;
-    &:hover{
+    @media (max-width: 1060px) {
+      background: $secondBgColor;
+      padding: 0;
+      height: 27vh;
+
+      width: 85%;
+      margin: 0.3em;
+
+      font-size: 28px;
+    }
+
+    &:hover {
       color: $activeColor;
       background-color: $secondBgColor;
       border-end-end-radius: 30px;
       border-top-right-radius: 30px;
+      @media (max-width: 1060px) {
+        border-end-end-radius: 0;
+        border-top-right-radius: 0;
+      }
 
     }
-    &:focus{
+
+    &:focus {
       color: $activeColor;
     }
-    .navIcon{
+
+    .navIcon {
+
       display: inline-block;
       width: 20px;
       height: 20px;
+      @media (max-width: 1060px) {
+        display: none;
+        width: 60px;
+        height: 60px;
+       left: 50%;
+      }
     }
-    .navItemTitle{
+
+    .navItemTitle {
       padding-left: 40px;
       padding-right: 10px;
+      @media (max-width: 1060px) {
+        padding: 0;
+        margin: 0;
+        display: block;
+        margin-top: 2.1em;
+        text-align: center;
+      }
     }
   }
-
-  .navItemActive{
-    //color: $activeColor;
-    //background-color: $secondBgColor;
-    //border-end-end-radius: 10px;
-    //border-top-right-radius: 10px;
-  }
 }
-.noViewNav{
-  transform: translate(0,-360px );
+
+.noViewNav {
+  transform: translate(0, -10000px);
   transition: 0.3s;
   z-index: 5;
 }

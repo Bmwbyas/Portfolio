@@ -12,9 +12,16 @@ import s from './App.module.scss'
 
 function App() {
 
+
+    // return (
+    //     <div>
+    //         <h2>Width: {windowSize}</h2>
+    //     </div>
+    // );
+
     return (
         <div className={s.App}>
-            <Header/>
+            <Header />
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path={routes.home} element={<Home/>}/>

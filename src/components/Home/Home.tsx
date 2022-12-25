@@ -20,7 +20,7 @@ export const Home = () => {
                     <div>
                     <h3> hi there</h3>
                     <h1><div>I'M <span> <ReactTypingEffect
-                        text={["Askerko Alexandr", "a frontend developer"]}
+                        text={["Askerko Alexandr"]}
 
                         speed={150}
                         eraseDelay={500}

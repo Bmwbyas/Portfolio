@@ -24,9 +24,10 @@ export const HamburgerMenu = () => {
         if(!e.target){setShowMenu(!showMenu)}
         setShowMenu(!showMenu)
     }
+    const showBurger=showMenu?s.burger+' '+s.vievBurger:s.burger
     return (
         <div>
-            <div className={s.burger} ref={root} onClick={showMenuHandler}>
+            <div className={showBurger} ref={root} onClick={showMenuHandler}>
                 <span className={firstLine}></span>
                 <span className={secondLine}></span>
                 <span className={thirdLine}></span>

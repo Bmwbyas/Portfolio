@@ -73,7 +73,7 @@ export const AboutMe = () => {
         <div className={s.mainBlock}>
             <Fade direction={"down"}>
                 <Title title={'About'} span={'me'}/>
-                <TitleDesc text={'I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.'}/>
+                <TitleDesc text={'I LOVE WHAT I DO'}/>
             </Fade>
             <div className={s.mainContainer}>
 

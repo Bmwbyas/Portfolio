@@ -18,7 +18,33 @@
     position: relative;
     color: $titleColor;
 
+    transition: 0.5s;
+    @media (max-width: 1060px) {
+      width: 120px;
+      height: 120px;
+      background-color: $activeColor;
+      margin-left: -60px;
+      margin-top: -60px;
+      transition: 0.5s;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 69px;
+        left: 67px;
+        z-index: 5;
+        background-image: url("../../../assets/image/icon/icons8-back.png");
+        background-size: cover;
+        background-position: center;
+      }
+
+    }
+
     .burgerLine {
+      @media (max-width: 1060px) {
+        display: none;
+      }
       z-index: 1;
       display: block;
       width: 30%;
@@ -57,7 +83,9 @@
       opacity: 0;
     }
     .background{
-
+      @media (max-width: 1060px) {
+        display: none;
+      }
       position: absolute;
       width: 60px;
       height: 60px;
@@ -70,6 +98,11 @@
     }
 
   }
+.vievBurger{
+  @media (max-width: 1060px) {
+    transform: translate(-100px,-100px);
+  }
+}
 
 
 
