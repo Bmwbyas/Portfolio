@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(link my projects)">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(projects description)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/educationCard.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" afterDir="false" />
     </list>
@@ -102,7 +102,7 @@
       <workItem from="1671727403504" duration="3423000" />
       <workItem from="1671773131771" duration="11348000" />
       <workItem from="1671956334001" duration="16895000" />
-      <workItem from="1672029765048" duration="3188000" />
+      <workItem from="1672029765048" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671977476725</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix(projects description)">
+      <created>1672047155324</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672047155325</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor(structure project)" />
     <MESSAGE value="fix(nav)" />
     <MESSAGE value="fix(home page structure)" />
     <MESSAGE value="fix(home page)" />
@@ -357,6 +363,7 @@
     <MESSAGE value="fix(image social network)" />
     <MESSAGE value="fix(contact style)" />
     <MESSAGE value="fix(link my projects)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(link my projects)" />
+    <MESSAGE value="fix(projects description)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(projects description)" />
   </component>
 </project>

@@ -102,11 +102,12 @@ export const AboutMe = () => {
                     </div>
                 </Fade>
             </div>
+            <Fade>
             <div className={s.aboutMe}>I am a patient and a diligent person. I am attentive to details and work with focus on outcomes. I work well autonomously and in a team. Thanks to my personal traits I can meet deadlines, lead people and follow management directions.
                 Now I'm in charge of 20 people. I coordinate, control, foster work safety and comfortable microclimate in my team. I'm responsible for my team reliability and performance.
                 My personal traits include honesty and stress tolerance - they help me leading the team and accomplishing work in time.</div>
             <hr className={s.aboutHr}/>
-            <Fade>
+
                 <div className={s.expEdContainer}>
                     <Card title={'expirience'} cardsData={expirienseData}/>
                     <Card title={'education'} cardsData={educationData}/>
