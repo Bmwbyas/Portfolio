@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="feat(mobile menu)">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(link my projects)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +23,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/программирование/friday project/cart-dima",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\программирование\\Portfolio\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/программирование/todolist-project/todolist-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\программирование\\Portfolio\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\программирование\Portfolio\portfolio\src\components\AboutMe" />
@@ -72,8 +67,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +101,8 @@
       <workItem from="1671708819017" duration="2207000" />
       <workItem from="1671727403504" duration="3423000" />
       <workItem from="1671773131771" duration="11348000" />
-      <workItem from="1671956334001" duration="12171000" />
+      <workItem from="1671956334001" duration="16895000" />
+      <workItem from="1672029765048" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -262,7 +258,63 @@
       <option name="project" value="LOCAL" />
       <updated>1671958453221</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat(mobile menu)">
+      <created>1671971305006</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671971305006</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(mobile menu)">
+      <created>1671971468344</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671971468344</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat(mobile menu)">
+      <created>1671971944290</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671971944290</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix(mobile menu)">
+      <created>1671972957243</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671972957244</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix(mobile menu)">
+      <created>1671973378108</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671973378108</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix(image social network)">
+      <created>1671973517124</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671973517124</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix(contact style)">
+      <created>1671973766657</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671973766657</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix(link my projects)">
+      <created>1671977476725</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671977476725</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +353,10 @@
     <MESSAGE value="refactor(about me)&#10;feat (soft skill)" />
     <MESSAGE value="refactor(skills)" />
     <MESSAGE value="feat(mobile menu)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(mobile menu)" />
+    <MESSAGE value="fix(mobile menu)" />
+    <MESSAGE value="fix(image social network)" />
+    <MESSAGE value="fix(contact style)" />
+    <MESSAGE value="fix(link my projects)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(link my projects)" />
   </component>
 </project>

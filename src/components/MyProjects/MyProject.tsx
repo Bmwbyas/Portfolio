@@ -32,15 +32,15 @@ export const MyProject = () => {
                     <Project project={'https://bmwbyas.github.io/samurai-way-main/'}
                              repository={'https://github.com/Bmwbyas/samurai-way-main'}
                              imageIcon={social} nameProject={'Social network'}
-                             description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc'}/>
+                             description={'Application which enables users to communicate with each other by posting information, comments, messages, images, etc. React / Redux /  React Hook Form / ANTD / Yup '}/>
                     <Project   imageIcon={toDoList} nameProject={'to-do list'}
                                project={'https://bmwbyas.github.io/todolist-project/'}
                                repository={'https://github.com/Bmwbyas/todolist-project'}
-                             description={`Add your tasks.Organize your life.Achieve more every day.`}/>
+                             description={`Add your tasks.Organize your life.Achieve more every day. React / Redux-toolkit / Typescript / Git / MIU / RESTAPI / Formik `}/>
                     <Project imageIcon={educationCards} nameProject={'Educational cards'}
                              project={'https://nazaruk-d.github.io/EducationCards/'}
                              repository={'https://github.com/Nazaruk-D/EducationCards'}
-                             description={`An application that allows you to learn from flashcards that are created by the user himself or by another user`}/>
+                             description={` An application that allows you to learn from flashcards. Project developed in a team. React / Redux / Typescript / Git / Jira / MIU / RESTAPI / Formik`}/>
                 </div>
             </div>
         </div>

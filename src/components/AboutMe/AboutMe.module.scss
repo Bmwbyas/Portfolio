@@ -22,6 +22,7 @@
         width: 80%;
         margin-right: 0;
       }
+
       .photo {
 
         @media (max-width: 490px) {
@@ -90,10 +91,23 @@
     }
   }
 
+  .aboutMe {
+    @include container();
+
+    color: $textColor;
+    @include text($fontMainPageText, 16px);
+    font-weight: 400;
+
+    margin: 0 auto;
+    line-height: 28px;
+    margin-top: 40px;
+
+  }
+
   .aboutHr {
 
     background: #555;
-    margin: 72px 50px 30px 50px;
+    margin: 50px 50px 30px 50px;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
   }

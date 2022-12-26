@@ -65,7 +65,7 @@ export const AboutMe = () => {
         {
             years: '08.2014-PRESENT',
             place: 'JSC "Borisovskiy DOK" - Deputy head of department for technical issues',
-            description: `My main task is to ensure the smooth operation of woodworking equipment. My team consists of 14 people.`
+            description: `My main task is to ensure the smooth operation of woodworking equipment. My team consists of 20 people.`
         }
 
     ]
@@ -73,7 +73,7 @@ export const AboutMe = () => {
         <div className={s.mainBlock}>
             <Fade direction={"down"}>
                 <Title title={'About'} span={'me'}/>
-                <TitleDesc text={'I LOVE WHAT I DO'}/>
+                <TitleDesc text={'I love how I can make codes turn into softwares and apps'}/>
             </Fade>
             <div className={s.mainContainer}>
 
@@ -102,6 +102,9 @@ export const AboutMe = () => {
                     </div>
                 </Fade>
             </div>
+            <div className={s.aboutMe}>I am a patient and a diligent person. I am attentive to details and work with focus on outcomes. I work well autonomously and in a team. Thanks to my personal traits I can meet deadlines, lead people and follow management directions.
+                Now I'm in charge of 20 people. I coordinate, control, foster work safety and comfortable microclimate in my team. I'm responsible for my team reliability and performance.
+                My personal traits include honesty and stress tolerance - they help me leading the team and accomplishing work in time.</div>
             <hr className={s.aboutHr}/>
             <Fade>
                 <div className={s.expEdContainer}>
