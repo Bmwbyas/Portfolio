@@ -47,7 +47,7 @@
       }
       z-index: 1;
       display: block;
-      width: 30%;
+      width: 16px;
       height: 2px;
       position: absolute;
       background-color: $titleColor;
@@ -93,7 +93,7 @@
       background: $secondBgColor;
     }
     .backgroundActive{
-      transition: .4s all linear;
+      transition: .6s all linear;
       height: 270px;
     }
 

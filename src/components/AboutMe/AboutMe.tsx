@@ -1,7 +1,6 @@
 import React from 'react';
 import s from './AboutMe.module.scss'
 import myPhoto from "../../assets/image/myPhoto.jpg";
-import {Button} from "../../common/components/Button/Button";
 import {Card} from "./Card/Card";
 import {TitleDesc} from "../../common/components/TitleDesc/TitleDesc";
 import {Title} from "../../common/components/title/Title";
@@ -98,7 +97,9 @@ export const AboutMe = () => {
                             <li><span>Telegram </span>@askerkoSasha</li>
                             <li><span>Possibility of remote work</span> Yes</li>
                         </ul>
-                        <div className={s.containerCV}><Button name={'download my cv'}></Button></div>
+                        <div className={s.containerCV}><a className={s.cv} href={'https://drive.google.com/u/0/uc?id=1Eyx72cpZr7VWSequ2qThzvK_z2DP3J0f&export=download'}>
+                            download my cv</a>
+                        </div>
                     </div>
                 </Fade>
             </div>

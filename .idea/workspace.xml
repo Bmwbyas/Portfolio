@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(projects description)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/educationCard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,8 @@
       <workItem from="1671727403504" duration="3423000" />
       <workItem from="1671773131771" duration="11348000" />
       <workItem from="1671956334001" duration="16895000" />
-      <workItem from="1672029765048" duration="4551000" />
+      <workItem from="1672029765048" duration="6463000" />
+      <workItem from="1672124690391" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -321,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672047155325</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fix(projects description)">
+      <created>1672049035905</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1672049035905</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,5 +1,6 @@
 @import "src/common/styles/sass/variables";
 @import "src/common/styles/sass/mixins";
+@import "src/common/components/Button/Button.module";
 
 .mainBlock {
   text-align: center;
@@ -87,6 +88,10 @@
       .containerCV {
         display: flex;
         justify-content: flex-start;
+        .cv{
+          @extend .button;
+          text-decoration: none;
+        }
       }
     }
   }
