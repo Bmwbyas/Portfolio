@@ -1,0 +1,41 @@
+@import "./src/common/styles/sass/variables";
+
+.arrow {
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  background-color: $secondBgColor;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+
+  &:after {
+    content: "^";
+   color: $textColor;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+  }
+}
+
+.arrowActive {
+  opacity: 1;
+  &:hover {
+    color: $titleColor;
+    background-color: $activeColor;
+    transition: all .35s ease;
+
+  }
+}
+

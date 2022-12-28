@@ -2,7 +2,7 @@
 @import "src/common/styles/sass/mixins";
 
 .contactBlock {
-  height: 100vh;
+  height: 115vh;
   @media (max-width: 1034px) {
     height: auto;
   }
@@ -90,7 +90,7 @@
             border: 1px solid #444444;
             width: 100%;
             padding: 12px 26px;
-            height: 150px;
+            height: 130px;
           }
 
           input, textarea {
@@ -118,6 +118,7 @@
             height: 45px;
             cursor: pointer;
             margin-top: 5%;
+            margin-bottom: 30px;
           }
         }
       }

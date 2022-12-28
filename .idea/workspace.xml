@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="fix(projects description)">
+    <list default="true" id="680c86fa-8ef8-419a-b4ce-b8ec01694c27" name="Changes" comment="feat(scroll to top)">
+      <change afterPath="$PROJECT_DIR$/src/common/components/ScrollToTop/ScrollToTop.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/ScrollToTop/ScrollToTop.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,8 @@
       <workItem from="1671773131771" duration="11348000" />
       <workItem from="1671956334001" duration="16895000" />
       <workItem from="1672029765048" duration="6463000" />
-      <workItem from="1672124690391" duration="2128000" />
+      <workItem from="1672124690391" duration="4173000" />
+      <workItem from="1672209721555" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(structure project)">
       <created>1671019534126</created>
@@ -331,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672049035905</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fix(add CV)">
+      <created>1672127754982</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672127754982</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,8 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix(nav)" />
-    <MESSAGE value="fix(home page structure)" />
     <MESSAGE value="fix(home page)" />
     <MESSAGE value="fix(about me expirience and aducation)" />
     <MESSAGE value="feat(skills )" />
@@ -374,6 +382,24 @@
     <MESSAGE value="fix(contact style)" />
     <MESSAGE value="fix(link my projects)" />
     <MESSAGE value="fix(projects description)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(projects description)" />
+    <MESSAGE value="fix(add CV)" />
+    <MESSAGE value="feat(scroll to top)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(scroll to top)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

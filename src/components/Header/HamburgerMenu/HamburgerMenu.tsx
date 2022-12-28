@@ -29,7 +29,7 @@ export const HamburgerMenu:React.FC<HamburgerMenuType> = ({showMenu,setShowMenu}
     }
     const showBurger=showMenu?s.burger+' '+s.vievBurger:s.burger
     return (
-        <div>
+        <div >
             <div className={showBurger} ref={root} onClick={showMenuHandler}>
                 <span className={firstLine}></span>
                 <span className={secondLine}></span>

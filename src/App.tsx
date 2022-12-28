@@ -9,13 +9,15 @@ import {AboutMe} from "./components/AboutMe/AboutMe";
 
 import React, {useState} from "react";
 import s from './App.module.scss'
+import {ScrollToTop} from "./common/components/ScrollToTop/ScrollToTop";
 
 function App() {
     const [showMenu, setShowMenu] = useState(false)
 
 
     return (
-        <div className={s.App}>
+        <div id={'home'} className={s.App}>
+            <ScrollToTop/>
             <Header showMenu={showMenu} setShowMenu={setShowMenu}  />
             <Routes>
                 <Route path='/' element={<Home  setShowMenu={setShowMenu} />}/>
