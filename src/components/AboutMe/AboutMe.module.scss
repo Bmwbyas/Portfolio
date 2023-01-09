@@ -13,14 +13,10 @@
 
       padding: 0 10px;
       position: relative;
-
-      width: 440px;
-      height: 440px;
       background-size: contain;
       z-index: 0;
       margin-right: 50px;
       @media (max-width: 971px) {
-        width: 80%;
         margin-right: 0;
       }
 
@@ -28,6 +24,8 @@
 
         @media (max-width: 490px) {
           max-width: 360px;
+          width: 360px;
+          height: 360px;
         }
         width: 440px;
         height: 440px;
@@ -88,7 +86,8 @@
       .containerCV {
         display: flex;
         justify-content: flex-start;
-        .cv{
+
+        .cv {
           @extend .button;
           text-decoration: none;
         }
