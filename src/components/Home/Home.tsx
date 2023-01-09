@@ -47,7 +47,7 @@ export const Home :React.FC<HomeType>= ({setShowMenu}) => {
                          eraseSpeed={150}
                     /></span></div></h1>
                     <p className={s.description}>I'm a frontend Developer based in Belarus.<br/>
-                        I strives to build web applications through carefully crafted code.</p>
+                        I build web applications through carefully crafted code.</p>
                     </div>
                     <div className={s.navContainer}>
                         <NavLink to={routes.aboutMe} className={s.navItem}>more about me</NavLink>
