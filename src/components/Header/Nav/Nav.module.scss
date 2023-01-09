@@ -12,7 +12,7 @@
   transition-delay: .25s;
   @media (max-width: 1060px) {
     position: absolute;
-    left: 0;
+    left: -8px;
     top:0;
     z-index: 5;
     background: $bdColor;
@@ -42,7 +42,7 @@
       height: 27vh;
 
       width: 85%;
-      margin: 0.3em;
+     margin: 0.3em;
 
       font-size: 28px;
     }
@@ -77,16 +77,15 @@
       padding-left: 40px;
       padding-right: 10px;
       @media (max-width: 1060px) {
+
         padding: 0;
         height: 27vh;
         width: 100%;
         position: absolute;
-        margin: 0 0;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-
-
       }
     }
   }
