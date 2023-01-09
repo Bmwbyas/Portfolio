@@ -68,10 +68,7 @@ export const Nav: React.FC<NavPropsType> = ({showNav, isShow}) => {
 
         {windowSize <= 1060 ?
             <div className={showNavigate}>
-                {/*<NavLink className={s.navItem} to={routes.home} onClick={showNavHandler}>*/}
-                {/*    <span className={s.navIcon} style={homeIcon}></span>*/}
-                {/*    <span className={s.navItemTitle}> Home</span>*/}
-                {/*</NavLink>*/}
+
                 <NavLink className={s.navItem} to={routes.aboutMe} onClick={showNavHandler}>
                     <span className={s.navIcon} style={aboutMeIcon}></span>
                     <span className={s.navItemTitle}>About me</span>

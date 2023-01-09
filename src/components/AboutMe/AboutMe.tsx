@@ -97,7 +97,8 @@ export const AboutMe = () => {
                             <li><span>Telegram </span>@askerkoSasha</li>
                             <li><span>Possibility of remote work</span> Yes</li>
                         </ul>
-                        <div className={s.containerCV}><a className={s.cv} href={'https://drive.google.com/u/0/uc?id=1Eyx72cpZr7VWSequ2qThzvK_z2DP3J0f&export=download'}>
+                        <div className={s.containerCV}><a className={s.cv}
+                                                          href={'https://drive.google.com/u/0/uc?id=15ZQwVgjQKyIFxqWkYHGhb8RmnIOo2OmQ&export=download'}>
                             download my cv</a>
                         </div>
                     </div>
