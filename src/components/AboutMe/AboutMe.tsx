@@ -10,7 +10,7 @@ import {Skills} from "../Skills/Skills";
 export type ExpEdDataType = {
     years: string
     place: string
-    description: string
+    description: any
 }
 
 export const AboutMe = () => {
@@ -21,18 +21,18 @@ export const AboutMe = () => {
     };
     const educationData: ExpEdDataType[] = [
         {
-            years: '06.2022-PRESENT',
+            years: '12.2021 - 05.2022',
             place: 'frontend developer-IT-INCUBATOR',
             description: `Sect for frontend and backend developers.
             This is the place where I realized that I like the frontend.`
         },
         {
-            years: '01.2022-06.2022',
+            years: '07.2021-12.2021',
             place: 'frontend developer-self-study',
             description: ` I learned the basics of HTML CSS JavaScript.`
         },
         {
-            years: '12.2021',
+            years: '06.2021',
             place: 'IT-ACADEMY - basics computer science',
             description: `Here I got knowledge about how a computer works and how it works. Also got acquainted with the Python programming language. 
             Gained skills in solving algorithmic problems, got acquainted with data types, etc.`
@@ -46,18 +46,23 @@ export const AboutMe = () => {
     ]
     const expirienseData: ExpEdDataType[] = [
         {
-            years: '09.2022-12.2022',
+            years: '06.2022 - PRESENT',
+            place: 'XI-EFFECT',
+            description: <span> Stack: next, mobx, MUI, react-hook-form, REST API, GIT, Discord, Kaiten, UI-KIT.<br/> It is a platform for building educational processes in educational organizations.  We only provide a comfortable, useful environment for teachers, teachers, students, tutors, the administration of the educational organization and parents. </span>
+        },
+        {
+            years: '12.2021 - 05.2022',
             place: 'IT-INCUBATOR - EDUCATIONAL CARDS',
             description: `This a web-based tool that allows users to create study cards. User can learn from his or someone else's cards.`
         },
         {
-            years: '05.2022-09.2022',
+            years: '12.2021 - 05.2022',
             place: 'IT-INCUBATOR - TO DO LIST',
             description: ` It’s a list of tasks you need to complete or things that you want to do.
                                 You can use a to do list in your home and personal life, or in the workplace.`
         },
         {
-            years: '01.2022-05.2022',
+            years: '12.2021 - 05.2022',
             place: 'IT-INCUBATOR - SOCIAL NETWORK',
             description: `Social network that makes it easy for you to connect with friends online.`
         },
@@ -98,7 +103,8 @@ export const AboutMe = () => {
                             <li><span>Possibility of remote work</span> Yes</li>
                         </ul>
                         <div className={s.containerCV}><a className={s.cv}
-                                                          href={'https://drive.google.com/u/0/uc?id=15ZQwVgjQKyIFxqWkYHGhb8RmnIOo2OmQ&export=download'}>
+                                                          target={'_blank'}
+                                                          href={'https://drive.google.com/file/d/1E2ozShOK0qT0jQFyL4iLE2ViTHqoblRf/view?usp=sharing'}>
                             download my cv</a>
                         </div>
                     </div>
